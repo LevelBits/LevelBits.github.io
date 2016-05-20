@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/%20/</loc>
+    <loc>/</loc>
     <lastmod>2016-05-12T15:18:04-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/%20/projects/not-waste/</loc>
+    <loc>/projects/not-waste/</loc>
     <lastmod>2016-05-12T15:18:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/projects/aoc-financial/</loc>
+    <loc>/projects/aoc-financial/</loc>
     <lastmod>2016-05-12T15:17:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/projects/american-minerals/</loc>
+    <loc>/projects/american-minerals/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/services/design/</loc>
+    <loc>/services/design/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/services/development/</loc>
+    <loc>/services/development/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/services/digital-marketing/</loc>
+    <loc>/services/digital-marketing/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/projects/valkyrie/</loc>
+    <loc>/projects/valkyrie/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/projects/pestle/</loc>
+    <loc>/projects/pestle/</loc>
     <lastmod>2016-05-12T15:15:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/projects/la-loma/</loc>
+    <loc>/projects/la-loma/</loc>
     <lastmod>2016-05-12T15:14:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/%20/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
 </urlset>

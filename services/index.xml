@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Level Bits | Web &amp; App Development</title>
-    <link>%20/services/</link>
+    <link>/services/</link>
     <description>Recent content in Services on Level Bits | Web &amp; App Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2016 15:16:04 -0400</lastBuildDate>
-    <atom:link href="%20/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/services/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Design</title>
-      <link>/%20/services/design/</link>
+      <link>/services/design/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/%20/services/design/</guid>
+      <guid>/services/design/</guid>
       <description>
 
 &lt;h3 id=&#34;we-design:83772ba7ad0304b1562d08f190539946&#34;&gt;We Design&lt;/h3&gt;
@@ -46,10 +46,10 @@ expectations.&lt;/p&gt;
     
     <item>
       <title>Development</title>
-      <link>/%20/services/development/</link>
+      <link>/services/development/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/%20/services/development/</guid>
+      <guid>/services/development/</guid>
       <description>
 
 &lt;h3 id=&#34;we-develop:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;We Develop&lt;/h3&gt;
@@ -83,10 +83,10 @@ expectations.&lt;/p&gt;
     
     <item>
       <title>Digital Marketing</title>
-      <link>/%20/services/digital-marketing/</link>
+      <link>/services/digital-marketing/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/%20/services/digital-marketing/</guid>
+      <guid>/services/digital-marketing/</guid>
       <description>
 
 &lt;h3 id=&#34;we-deliver:a1b5fef42caa47c2a9bdffa77f374687&#34;&gt;We Deliver&lt;/h3&gt;
