@@ -175,7 +175,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 <script>
-  $(document).ready(function() {
+  window.onload = function() {
     var grid = document.getElementsByClassName("grid");
     if (!grid || grid.length <= 0) return;
 
@@ -184,7 +184,7 @@ jQuery(document).ready(function($) {
       columnWidth: '.grid-sizer',
       percentPosition: true
     });
-  });
+  }
 </script>
 
 </body>
