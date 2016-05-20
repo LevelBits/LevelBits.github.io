@@ -1,0 +1,22 @@
+<footer class="container-fluid">
+  <div class="row center-xs">
+    <div class="col-xs-12">
+      <img src="/images/level-bits-footer-logo@2x.png" class="footer-logo" alt="logo">
+      <h3>{{ .Site.Params.bodyTitle }}</h3>
+      <p class="footer-text">{{ .Site.Params.bodyDescription }}</p>
+    </div>
+  </div>
+  <div class="row center-xs social">
+    {{ range .Site.Params.footer.social }}
+    <div class="col-xs">
+      <i class="{{ .icon }}" aria-hidden="true"></i><a href="{{ .link }}" target="_blank"><p>{{ .name }}</p></a>
+    </div>
+    {{ end }}
+  </div>
+  <div class="row center-xs">
+    <div class="col-xs-12">
+      <p class="copyright">{{ .Site.Params.footer.copyright }}</p>
+    </div>
+  </div>
+  </div>
+</footer>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <header class="container">
+    <div class="row">
+      <h1 class="main-heading">We are a full</br>service digital agency</h1>
+    </div>
+  </header>
+  <div class="container masonry">
+    {{ partial "masonry.html" . }}
+  </div>
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>

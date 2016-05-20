@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="container projects">
+    <div class="row center-xs">
+      <div class="col-md-12">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+    <div class="row row-contain">
+      <div class="col-md-8">
+        <img src="{{ .Params.preview }}" width="750px">
+      </div>
+      <div class="col-md-4 markdown">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>

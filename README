@@ -1,0 +1,13 @@
+# Development
+
+```
+brew install hugo
+hugo server -w
+```
+
+# Deployment
+
+```
+hugo -t levelbits
+./deploy.sh
+```

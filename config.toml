@@ -1,0 +1,47 @@
+baseurl = " "
+languageCode = "en-us"
+title = "Level Bits | Web & App Development"
+theme = "levelbits"
+MetaDataFormat = "toml"
+
+[permalinks]
+page = "/:title/"
+
+[params]
+bodyTitle = "Web & App Development"
+bodyDescription = "At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms."
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+
+[params.footer]
+enable = true
+copyright = "© 2016 Level Bits LLC. All rights reserved."
+
+  [[params.footer.social]]
+  name = "Facebook"
+  link = "https://www.facebook.com/levelbits"
+  icon = "fa fa-facebook"
+
+  [[params.footer.social]]
+  name = "Twitter"
+  link = "https://twitter.com/levelbits"
+  icon = "fa fa-twitter"
+
+  [[params.footer.social]]
+  name = "Instagram"
+  link = "https://www.instagram.com/levelbits"
+  icon = "fa fa-instagram"
+
+  [[params.footer.social]]
+  name = "Google"
+  link = "https://google.com/+levelbits-"
+  icon = "fa fa-google-plus"
+
+  [[params.footer.social]]
+  name = "LinkedIn"
+  link = "https://www.linkedin.com/company/level-bits"
+  icon = "fa fa-linkedin"

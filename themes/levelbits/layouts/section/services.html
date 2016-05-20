@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <header class="container">
+    <div class="row center-xs">
+      <div class="col-md-12">
+        <img src="/images/about.jpg" width="100%" style="max-width: 634px;">
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid services">
+    <div class="row center-xs row-contain">
+      <div class="col-md-4">
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+        <h2>We Design</h2>
+        <p>Brand identity, website design, application wireframe and UI – design is the beginning of all production.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <h2>We Develop</h2>
+        <p>Brand identity, website design, application wireframe and UI – design is the beginning of all production.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-cube" aria-hidden="true"></i>
+        <h2>We Deliver</h2>
+        <p>Brand identity, website design, application wireframe and UI – design is the beginning of all production.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mission">
+    <div class="row">
+      <div class="col-md-6 left">
+        <h3>Our Methodology</h3>
+        <p>At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms. We use the latest technology so that your application works on the newest mobile devices.</p>
+      </div>
+      <div class="col-md-6 right">
+        <h3>Our Mission</h3>
+        <p>At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms. We use the latest technology so that your application works on the newest mobile devices.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid logos">
+    <div class="row center-xs row-contain">
+      {{ range where .Site.Pages.ByDate "Section" "projects" }}
+      <div class="col-xs">
+        <img src="{{ .Params.logo }}" width="100px">
+      </div>
+      {{ end }}
+      <!-- <div class="col-md-3">
+        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/am-logo@2x-100x100.png" width="100px">
+      </div>
+      <div class="col-md-3">
+        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/la-loma-logo@2x-100x100.png" width="100px">
+      </div>
+      <div class="col-md-3">
+        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/ascent-logo@2x-100x100.png" width="100px">
+      </div> -->
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>

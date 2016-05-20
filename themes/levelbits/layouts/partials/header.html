@@ -1,0 +1,28 @@
+<div class="container-fluid nav-bar">
+  <div class="row middle-xs center-xs row-contain">
+    <div class="col-xs-12 col-sm-6 col-md-9">
+      <a href="/"><div class="logo"></div></a>
+    </div>
+    {{ range .Site.Pages.GroupBy "Section"  }}
+    {{ if eq .Key "" }}
+    {{ else }}
+    <div class="col-xs nav-item">
+      <a href="/{{ .Key }}">{{ .Key }}</a>
+      <ul>
+        {{ range .Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    {{ range .Site.Menus.main }}
+    <div class="col-xs nav-item">
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    </div>
+    {{end}}
+  </div>
+</div>

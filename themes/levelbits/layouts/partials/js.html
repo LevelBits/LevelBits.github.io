@@ -1,0 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/masonry.pkgd.js"></script>
+<script src="https://use.fontawesome.com/6dd88f051e.js"></script>
+<script>
+jQuery(document).ready(function($) {
+  $(window).scroll(function() {
+    var scrollPos = $(window).scrollTop(),
+    navbar = $('.nav-bar');
+
+    if (scrollPos > 100) {
+      navbar.addClass('alt-color');
+    } else {
+      navbar.removeClass('alt-color');
+    }
+  });
+});
+</script>
+<script>
+  window.onload = function() {
+    var msnry = new Masonry( '.grid', {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true
+    });
+  };
+</script>
