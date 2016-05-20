@@ -1,4 +1,4 @@
-baseurl = " "
+baseurl = "/"
 languageCode = "en-us"
 title = "Level Bits | Web & App Development"
 theme = "levelbits"
