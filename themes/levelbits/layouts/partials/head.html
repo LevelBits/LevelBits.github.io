@@ -3,8 +3,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:image" content="{{ .Site.Params.image }}">
+<meta property="og:url" content="{{ .Site.Params.url }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="og:type" content="website">
+
 {{ .Hugo.Generator }}
-<title>{{ .Site.Title }}</title>
+
+{{ if .IsHome }}
+<title>{{ .Title}} | {{ .Site.Params.tagline }}</title>
+{{ else }}
+<title>{{ .Site.Title }} | {{ .Title }}</title>
+{{ end }}
+
 <link href="{{ .Site.BaseURL }}css/flexboxgrid.min.css" rel="stylesheet">
 <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
