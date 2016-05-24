@@ -6,12 +6,22 @@ jQuery(document).ready(function($) {
   $(window).scroll(function() {
     var scrollPos = $(window).scrollTop(),
     navbar = $('.nav-bar');
+    logo = $('.logo');
 
-    if (scrollPos > 100) {
+    if (scrollPos > 10) {
+      logo.addClass('alt-logo');
+      navbar.addClass('alt-position');
+    } else {
+      logo.removeClass('alt-logo');
+      navbar.removeClass('alt-position');
+    }
+
+    if (scrollPos > 140) {
       navbar.addClass('alt-color');
     } else {
       navbar.removeClass('alt-color');
     }
+
   });
 });
 </script>
