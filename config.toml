@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "levelbits"
 title = "Level Bits"
+theme = "levelbits"
 MetaDataFormat = "toml"
 
 [permalinks]
