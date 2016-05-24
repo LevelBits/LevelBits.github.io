@@ -11,8 +11,9 @@ page = "/:title/"
 name = "Level Bits, LLC"
 tagline = "Web & App Development"
 description = "At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms."
-image = "/images/level-bits-og-image.png"
+image = "http://www.levelbits.com/images/level-bits-og-image.png"
 url = "http://www.levelbits.com"
+site = "@LevelBits"
 
 [menu]
   # Shown in the side menu.
