@@ -7,11 +7,21 @@
 <meta name="description" content="At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms.">
 <meta name="author" content="Level Bits, LLC">
 <meta property="og:title" content="Level Bits">
-<meta property="og:image" content="/images/level-bits-og-image.png">
+<meta property="og:image" content="http://www.levelbits.com/images/level-bits-og-image.png">
 <meta property="og:url" content="http://www.levelbits.com">
 <meta property="og:site_name" content="Level Bits">
 <meta property="og:description" content="At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms.">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Level Bits">
+<meta name="twitter:image" content="http://www.levelbits.com/images/level-bits-og-image.png">
+<meta name="twitter:url" content="http://www.levelbits.com">
+<meta name="twitter:description" content="At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms.">
+<meta name="twitter:site" content="@LevelBits">
+<meta itemprop="name" content="Level Bits">
+<meta itemprop="description" content="At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms.">
+<meta itemprop="image" content="http://www.levelbits.com/images/level-bits-og-image.png">
+<meta property="fb:admins" content="100009715599548">
 
 <meta name="generator" content="Hugo 0.15" />
 
@@ -230,12 +240,22 @@ jQuery(document).ready(function($) {
   $(window).scroll(function() {
     var scrollPos = $(window).scrollTop(),
     navbar = $('.nav-bar');
+    logo = $('.logo');
 
-    if (scrollPos > 100) {
+    if (scrollPos > 10) {
+      logo.addClass('alt-logo');
+      navbar.addClass('alt-position');
+    } else {
+      logo.removeClass('alt-logo');
+      navbar.removeClass('alt-position');
+    }
+
+    if (scrollPos > 140) {
       navbar.addClass('alt-color');
     } else {
       navbar.removeClass('alt-color');
     }
+
   });
 });
 </script>
