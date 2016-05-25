@@ -122,6 +122,7 @@ header {
   background-image: url(/images/level-bits-logo.png);
   -webkit-transition: .2s ease-out; /* Safari */
   transition: .2s ease-out;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -131,7 +132,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .logo {
         background-image: url(/images/level-bits-logo@2x.png);
         background-size: 185px 20px;
-        background-repeat: no-repeat;
     }
 }
 
@@ -394,6 +394,21 @@ footer {
 
 .projects h1 {
   margin-bottom: 60px;
+}
+
+.preview {
+  padding-right: 120px;
+}
+
+@media (max-width: 1024px) {
+  .preview {
+    padding-right: 0px;
+  }
+}
+
+.preview-img {
+  width: 100%;
+  max-width: 750px;
 }
 
 .markdown p {
