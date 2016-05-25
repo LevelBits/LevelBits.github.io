@@ -6,14 +6,14 @@
 <body>
   {{ partial "header.html" . }}
   <div class="container projects">
-    <div class="row center-xs">
+    <div class="row row-contain center-xs">
       <div class="col-md-12">
         <h1>{{ .Title }}</h1>
       </div>
     </div>
     <div class="row row-contain">
-      <div class="col-md-8">
-        <img src="{{ .Params.preview }}" width="750px">
+      <div class="col-md-8 col-xs-12 preview">
+        <img src="{{ .Params.preview }}" class="preview-img">
       </div>
       <div class="col-md-4 markdown">
         {{ .Content }}
