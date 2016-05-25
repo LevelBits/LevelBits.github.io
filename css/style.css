@@ -35,6 +35,12 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 748px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
 .nav-bar {
   position: fixed;
   height: 80px;
@@ -136,6 +142,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   background-position: center;
   -webkit-transition: .2s ease-in; /* Safari */
   transition: .2s ease-in;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -145,7 +152,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .alt-logo {
         background-image: url(/images/level-bits-symbol@2x.png);
         background-size: 36px 40px;
-        background-repeat: no-repeat;
     }
 }
 
@@ -182,6 +188,14 @@ footer {
   color: #555555;
 }
 
+.social:hover a {
+  opacity: 0.6;
+}
+
+.social:hover i {
+  opacity: 0.6;
+}
+
 .social a {
   text-decoration: none;
   text-transform: uppercase;
@@ -189,6 +203,14 @@ footer {
   font-size: 12px;
   font-weight: 700;
   display: inline-block;
+}
+
+.social div:hover a {
+  opacity: 1;
+}
+
+.social div:hover i {
+  opacity: 1;
 }
 
 .social i {
@@ -236,6 +258,12 @@ footer {
 .grid-item, .grid-sizer {
   width: 33.333333%;
   overflow: hidden;
+}
+
+@media (max-width: 400px) {
+  .grid-item, .grid-sizer {
+    width: 100%;
+  }
 }
 
 .secondary {
@@ -428,4 +456,10 @@ footer {
   color: #fff;
   transition: all 0.4s;
   -webkit-transition: all 0.8s;
+}
+
+/* Smooch Styling */
+
+#sk-holder #sk-container {
+  z-index: 10002 !important;
 }
