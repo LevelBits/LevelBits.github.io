@@ -6,6 +6,7 @@
     {{ range .Site.Pages.GroupBy "Section"  }}
     {{ if eq .Key "" }}
     {{ else }}
+    <!-- try to take out flex grow -->
     <div class="col-xs nav-item">
       <a href="/{{ .Key }}">{{ .Key | title }}</a>
       <ul>
