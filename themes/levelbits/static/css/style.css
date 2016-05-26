@@ -64,6 +64,10 @@ header {
   margin: auto;
 }
 
+.nav-item {
+  justify-content: center;
+}
+
 .nav-item a {
   text-decoration: none;
   color: #333333;
@@ -338,6 +342,10 @@ footer {
 .markdown p {
   font-size: 14px;
   line-height: 34px;
+}
+
+.markdown h3 {
+  margin: 0;
 }
 
 .markdown a {
