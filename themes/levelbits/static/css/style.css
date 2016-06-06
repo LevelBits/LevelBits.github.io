@@ -478,3 +478,11 @@ footer {
 #sk-holder #sk-container {
   z-index: 10002 !important;
 }
+
+/* 404 page */
+.error {
+  text-align:center;
+  margin-top:200px;
+  font-size:32px;
+  padding-bottom:200px;
+}
