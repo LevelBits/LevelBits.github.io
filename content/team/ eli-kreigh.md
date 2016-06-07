@@ -2,7 +2,6 @@
 date = "2016-05-12T15:16:04-04:00"
 title = "Eli Kreigh"
 image ="http://www.prepcasts.com/wp-content/uploads/2014/04/BasketballStockImage.jpg"
-
 +++
 
 

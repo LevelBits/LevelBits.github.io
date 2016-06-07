@@ -2,7 +2,6 @@
 date = "2016-05-12T15:16:04-04:00"
 title = "Michael Sordelet"
 image = "http://boykinsbasketball.com/wp-content/uploads/2015/10/5451a9bac173c.preview-699.jpg"
-
 +++
 
 

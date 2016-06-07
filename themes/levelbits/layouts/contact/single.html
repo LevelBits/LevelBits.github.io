@@ -1,13 +1,19 @@
 {{ partial "head.html" . }}
+  <video autoplay loop muted id="bgvid">
+    <source src="/images/basketball-drone.mp4" type="video/mp4">
+  </video>
+    {{ partial "header.html" . }}
   <div class="container single-title">
-    <div class="row center-xs">
+    <div class="row center-xs row-contain">
       <div class="col-md-12">
         <h1>{{ .Title }}</h1>
       </div>
     </div>
+  </div>
+  <div class="container-fluid locations">
     <div class="row row-contain">
       <div class="col-md-8">
-        <img src="{{ .Params.image }}" width="600px">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?markers={{.Params.lat}},{{.Params.lng}}&size=650x300" style="max-width: 100%;">
       </div>
       <div class="col-md-4 markdown">
         {{ .Content }}
