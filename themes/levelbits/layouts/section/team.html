@@ -1,24 +1,27 @@
 {{ partial "head.html" . }}
   <div class="container">
-    <h1> Meet Our Team</h1>
-    <p>Meet our team of amazing designers and developers</p>
-  </div>
-    <div class ="row center-xs">
-      <div class ="col-xs-6">
-        <div>
-          <img src="http://www.zent.io/blog/wp-content/uploads/2014/12/teamwork.jpg"
-          width= "400px">
-        </div>
+    <section class="team-page">
+      <div class="row">
+          <h1>Our Team</h1>
       </div>
-    </div>
-      <div class="row ">
+      <div class="row team-page">
         {{ range where .Site.Pages.ByDate "Section" "team" }}
-        <div class="col-xs-12 col-sm-4" style="height: 250px; text-align: center; border: 1px solid red;">
+        <div class="col-xs-12 col-sm-4 ind-team">
           <a href ="{{ .Permalink }}">
-            <img src='{{ .Params.image }}' style="border-radius: 50%;" width="100px" height="100px">
+            <img src='{{ .Params.image }}'>
           </a>
-          <div>{{ .Title }}</div>
-          <div>Designer</div>
+          <h2>{{ .Title }}</h2>
+          <h4>{{ .Params.division }}</h4>
+          <h5>{{ .Params.email}}</h5>
+          <div class="icon-social">
+            <a href="https://www.facebook.com/levelbits/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+          <div class="icon-social">
+            <a href="{{ .Params.linkedin }}" target="_blank"><i class="fa fa-linkedin-square " aria-hidden="true"></i></a>
+          </div>
+          <div class="icon-social">
+            <a href="https://twitter.com/LevelBits?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
         </div>
         {{ end }}
       </div>

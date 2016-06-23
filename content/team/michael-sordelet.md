@@ -1,12 +1,15 @@
 +++
 date = "2016-05-12T15:16:04-04:00"
 title = "Michael Sordelet"
-image = "http://boykinsbasketball.com/wp-content/uploads/2015/10/5451a9bac173c.preview-699.jpg"
+image = "https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/13466371_1387176544633220_4501328003724931958_n.jpg?oh=cf7508f7a7cd5ab2dc385c3315adb052&oe=580B42B0"
+division = "Development"
+email = "Michael@levelbits.com"
+linkedin = "https://www.linkedin.com/home?trk=nav_responsive_tab_home"
 +++
 
 
-## Michael Sordelet
 
-#### Development
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Developer
+  Michael is one of our talented developers, who strives to bring the best product to our customers everyday. He works with our designer, Dylan, to build new and innovative websites. Michael and Eli  work together, as a team,  to bring the website to production level for our clients. 

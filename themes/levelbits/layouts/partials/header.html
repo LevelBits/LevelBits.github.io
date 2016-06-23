@@ -6,7 +6,7 @@
     {{ $pages := .Site.Pages.ByWeight }}
     {{ range .Site.Menus.main }}
     <div class="col-xs nav-item">
-      <a href="{{.URL}}">{{ .Name }}</a>
+      <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
       <ul>
         {{ range where $pages "Section" .Identifier }}
         <li>
