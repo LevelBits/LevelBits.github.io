@@ -3,7 +3,15 @@
 <script src="https://use.fontawesome.com/6dd88f051e.js"></script>
 <script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<script>
 var smoochLoaded = Smooch.init({
   appToken: '8i68cs75ohmjhsisrodjpzgwj',
   emailCaptureEnabled: true,

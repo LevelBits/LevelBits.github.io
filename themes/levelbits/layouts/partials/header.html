@@ -1,20 +1,32 @@
-<div class="container-fluid nav-bar">
-<div class="row middle-xs end-xs row-contain">
-  <div class="col-xs">
-    <a href="/"><div class="logo"></div></a>
-  </div>
-  {{ $pages := .Site.Pages.ByWeight }}
-  {{ range .Site.Menus.main }}
-  <div class="nav-item">
+<div id="myNav" class="overlay-mobile">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    {{ $pages := .Site.Pages.ByWeight }}
+    {{ range .Site.Menus.main }}
     <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
-    <ul>
-      {{ range where $pages "Section" .Identifier }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    {{ end }}
   </div>
-  {{ end }}
 </div>
+<div class="container-fluid nav-bar">
+  <div class="row middle-xs end-xs row-contain">
+    <div class="col-xs">
+      <a href="/"><div class="logo"></div></a>
+    </div>
+    <div class="col-xs">
+      <span class="openbtn" onclick="openNav()">☰</span>
+    </div>
+    {{ $pages := .Site.Pages.ByWeight }}
+    {{ range .Site.Menus.main }}
+    <div class="nav-item">
+      <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
+      <ul>
+        {{ range where $pages "Section" .Identifier }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
 </div>
