@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  {{ partial "header.html" . }}
+{{ partial "head.html" . }}
   <div class="container masonry projects-m">
     {{ partial "masonry.html" . }}
   </div>

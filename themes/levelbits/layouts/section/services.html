@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  {{ partial "header.html" . }}
+{{ partial "head.html" . }}
   <header class="container">
     <div class="row center-xs">
       <div class="col-md-12">
@@ -12,22 +6,25 @@
       </div>
     </div>
   </header>
-  <div class="container-fluid services">
+  <div class="container-fluid services-list">
     <div class="row center-xs row-contain">
       <div class="col-md-4">
         <i class="fa fa-file-image-o" aria-hidden="true"></i>
         <h2>We Design</h2>
         <p>Brand identity, website design, application wireframe and UI – design is the beginning of all production.</p>
+        <a href="/services/design"><button class="btn">See More</button></a>
       </div>
       <div class="col-md-4">
         <i class="fa fa-code" aria-hidden="true"></i>
         <h2>We Develop</h2>
         <p> Our team of professionals build and create unique applications for the Web, iOS and Android platforms.</p>
+        <a href="/services/development"><button class="btn">See More</button></a>
       </div>
       <div class="col-md-4">
         <i class="fa fa-cube" aria-hidden="true"></i>
         <h2>We Deliver</h2>
         <p>When each phase is complete, you can feel confident you are receiving a fully tested and polished product.</p>
+        <a href="/services/digital-marketing"><button class="btn">See More</button></a>
       </div>
     </div>
   </div>
@@ -50,15 +47,6 @@
         <img src="{{ .Params.logo }}" width="100px">
       </div>
       {{ end }}
-      <!-- <div class="col-md-3">
-        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/am-logo@2x-100x100.png" width="100px">
-      </div>
-      <div class="col-md-3">
-        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/la-loma-logo@2x-100x100.png" width="100px">
-      </div>
-      <div class="col-md-3">
-        <img src="http://www.levelbits.com/wp-content/uploads/2015/10/ascent-logo@2x-100x100.png" width="100px">
-      </div> -->
     </div>
   </div>
   {{ partial "footer.html" . }}

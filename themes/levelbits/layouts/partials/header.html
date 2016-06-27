@@ -1,16 +1,15 @@
 <div class="container-fluid nav-bar">
-  <div class="row middle-xs center-xs row-contain">
-    <div class="col-xs-12 col-sm-6 col-md-9">
+  <div class="row middle-xs end-xs row-contain">
+    <div class="col-xs">
       <a href="/"><div class="logo"></div></a>
     </div>
     {{ range .Site.Pages.GroupBy "Section"  }}
     {{ if eq .Key "" }}
     {{ else }}
-    <!-- try to take out flex grow -->
     <div class="col-xs nav-item">
-      <a href="/{{ .Key }}">{{ .Key }}</a>
+      <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
       <ul>
-        {{ range .Pages }}
+        {{ range where $pages "Section" .Identifier }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
@@ -18,12 +17,5 @@
       </ul>
     </div>
     {{ end }}
-    {{ end }}
-
-    {{ range .Site.Menus.main }}
-    <div class="col-xs nav-item">
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    </div>
-    {{end}}
   </div>
 </div>

@@ -1,0 +1,33 @@
+{{ partial "head.html" . }}
+  <div class="container">
+    <section class="team-page">
+      <div class="row">
+          <h1>Our Team</h1>
+      </div>
+      <div class="row team-page">
+        {{ range where .Site.Pages.ByDate "Section" "team" }}
+        <div class="col-xs-12 col-sm-4 ind-team">
+          <a href ="{{ .Permalink }}">
+            <img src='{{ .Params.image }}'>
+          </a>
+          <h2>{{ .Title }}</h2>
+          <h4>{{ .Params.division }}</h4>
+          <h5>{{ .Params.email}}</h5>
+          <div class="icon-social">
+            <a href="https://www.facebook.com/levelbits/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </div>
+          <div class="icon-social">
+            <a href="{{ .Params.linkedin }}" target="_blank"><i class="fa fa-linkedin-square " aria-hidden="true"></i></a>
+          </div>
+          <div class="icon-social">
+            <a href="https://twitter.com/LevelBits?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>
