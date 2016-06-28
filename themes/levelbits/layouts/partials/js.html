@@ -3,15 +3,27 @@
 <script src="https://use.fontawesome.com/6dd88f051e.js"></script>
 <script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
-$('.openbtn').click(function() {
+
+function openNav() {
   document.getElementById("myNav").className = 'overlay-mobile open';
+}
+
+function closeNav() {
+  document.getElementById("myNav").className = 'overlay-mobile';
+}
+
+$('.openbtn').click(function(e) {
+  e.preventDefault();
+  openNav();
   return false;
 })
 
-$('.closebtn, .link-nav-item').click(function() {
-  document.getElementById("myNav").className = 'overlay-mobile';
+$('.closebtn').click(function(e) {
+  e.preventDefault();
+  closeNav();
   return false;
 })
+
 </script>
 
 <script>

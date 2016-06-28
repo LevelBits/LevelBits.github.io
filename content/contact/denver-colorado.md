@@ -9,8 +9,6 @@ lng= -104.9903
 
 ### Denver, Colorado
 
-#### Denver, Colorado 80211
-
-##### United States of America
-
-##### Phone: 720.443.4017
+Denver, Colorado 80211<br>
+United States of America<br>
+Phone: 720.443.4017

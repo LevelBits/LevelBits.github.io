@@ -1,10 +1,14 @@
-{{ partial "head.html" . }}
+<div class="container section">
+  {{ partial "head.html" . }}
   {{ range first 10 .Data.Pages }}
-    <h1>{{ .Title }}</h1>
+  <div class="row-contain" style="margin-bottom: 40px;">
+    <h3>{{ .Title }}</h3>
     <p>{{ .Summary }}</p>
-    <a href="{{ .Permalink }}">Read More...</a>
+    <a href="{{ .Permalink }}"><button class="btn">View More</button></a>
+  </div>
   {{ end }}
-  {{ partial "footer.html" . }}
-  {{ partial "js.html" . }}
+</div>
+{{ partial "footer.html" . }}
+{{ partial "js.html" . }}
 </body>
 </html>
