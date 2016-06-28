@@ -1,9 +1,9 @@
 <div id="myNav" class="overlay-mobile">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" class="closebtn">&times;</a>
   <div class="overlay-content">
     {{ $pages := .Site.Pages.ByWeight }}
     {{ range .Site.Menus.main }}
-    <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
+    <a id="{{.Identifier}}-nav-item-mobile" class="link-nav-item" href="{{.URL}}">{{ .Name }}</a>
     {{ end }}
   </div>
 </div>
@@ -13,7 +13,7 @@
       <a href="/"><div class="logo"></div></a>
     </div>
     <div class="col-xs">
-      <span class="openbtn" onclick="openNav()">☰</span>
+      <span class="openbtn">☰</span>
     </div>
     {{ $pages := .Site.Pages.ByWeight }}
     {{ range .Site.Menus.main }}

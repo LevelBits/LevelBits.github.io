@@ -225,7 +225,7 @@ footer {
 }
 
 .social-item {
-  flex-grow: 0;
+  margin: 0px 5px;
 }
 
 .copyright {
@@ -652,6 +652,10 @@ video#bgvid {
     display: none;
 }
 
+.overlay-mobile.open {
+  width: 100%;
+}
+
 .openbtn {
   font-size: 24px;
   cursor: pointer;
@@ -671,15 +675,6 @@ video#bgvid {
   }
 }
 
-/* Position the content inside the overlay */
-.overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
 /* The navigation links inside the overlay */
 .overlay-mobile a {
     padding: 8px;
@@ -696,6 +691,15 @@ video#bgvid {
 /* When you mouse over the navigation links, change their color */
 .overlay-mobile a:hover, .overlay-mobile a:focus {
     color: #777777;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* Position the close button (top right corner) */

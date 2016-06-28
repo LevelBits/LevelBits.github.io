@@ -4,5 +4,7 @@
     <p>{{ .Summary }}</p>
     <a href="{{ .Permalink }}">Read More...</a>
   {{ end }}
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
 </body>
 </html>

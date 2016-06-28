@@ -3,14 +3,17 @@
 <script src="https://use.fontawesome.com/6dd88f051e.js"></script>
 <script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+$('.openbtn').click(function() {
+  document.getElementById("myNav").className = 'overlay-mobile open';
+  return false;
+})
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
+$('.closebtn, .link-nav-item').click(function() {
+  document.getElementById("myNav").className = 'overlay-mobile';
+  return false;
+})
 </script>
+
 <script>
 var smoochLoaded = Smooch.init({
   appToken: '8i68cs75ohmjhsisrodjpzgwj',
@@ -37,16 +40,17 @@ var smoochLoaded = Smooch.init({
 });
 
 smoochLoaded.then(function() {
-  $().ready(function () {
-    $('a#contact-nav-item').click(function (event) {
-      event.preventDefault();
+  $(function() {
+    if(window.location.href.indexOf("contact") > -1) {
       Smooch.open();
-    })
+    }
   })
 })
 </script>
+
+
 <script>
-jQuery(document).ready(function($) {
+$(function() {
   $(window).scroll(function() {
     var scrollPos = $(window).scrollTop(),
     navbar = $('.nav-bar');
@@ -70,7 +74,7 @@ jQuery(document).ready(function($) {
 });
 </script>
 <script>
-window.onload = function() {
+$(function() {
   var grid = document.getElementsByClassName("grid");
   if (!grid || grid.length <= 0) return;
 
@@ -79,5 +83,5 @@ window.onload = function() {
     columnWidth: '.grid-sizer',
     percentPosition: true
   });
-}
+})
 </script>
