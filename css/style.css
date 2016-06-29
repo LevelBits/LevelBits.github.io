@@ -29,6 +29,7 @@ h3 {
 
 p {
   color: #555555;
+  line-height: 26px;
 }
 
 a {
@@ -56,6 +57,13 @@ a {
   margin-top: 0px;
   -webkit-transition: .4s ease-in; /* Safari */
   transition: .4s ease-in;
+  position: fixed;
+}
+
+@media (max-width: 668px) {
+  .alt-position {
+    position: absolute;
+  }
 }
 
 .alt-color {
@@ -75,6 +83,10 @@ header {
 .row-contain {
   max-width: 1140px;
   margin: auto;
+}
+
+.nav-item {
+  margin-left: 40px;
 }
 
 .nav-item a {
@@ -216,6 +228,11 @@ footer {
 .social i {
   font-size: 12px;
   letter-spacing: 6px;
+  display: inline;
+}
+
+.social-item {
+  margin: 0px 5px;
 }
 
 .copyright {
@@ -247,6 +264,10 @@ footer {
 
 .projects-m {
   padding-top: 160px;
+}
+
+.section {
+  padding: 160px 0px 60px 0px;
 }
 
 .grid:after {
@@ -282,6 +303,16 @@ footer {
   -moz-transition: all 0.2s;
 }
 
+@media (max-width: 400px) {
+  .secondary {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+  }
+}
+
 .grid-item:hover .secondary {
   opacity: 1;
   visibility: visible;
@@ -291,7 +322,7 @@ footer {
 }
 
 .overlay {
-  background: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.7);
   position: absolute;
   opacity: 0;
   visibility: hidden;
@@ -312,6 +343,16 @@ footer {
   visibility: visible;
 }
 
+@media (max-width: 400px) {
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .grid-item .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 .overlay-center {
   position: relative;
   top: 50%;
@@ -330,21 +371,21 @@ footer {
 
 /* Services */
 
-.services {
+.services-list {
   background-color: #ffffff
 }
 
-.services .row {
+.services-list .row {
   padding: 90px 0px;
 }
 
-.services i {
+.services-list i {
   color: #dddddd;
   font-size: 38px;
   margin-bottom: 20px;
 }
 
-.services p {
+.services-list p {
   font-size: 14px;
   color: #888;
   line-height: 28px;
@@ -387,12 +428,12 @@ footer {
   padding: 80px 0px;
 }
 
-.projects {
+.single-title {
   padding-top: 140px;
   padding-bottom: 60px;
 }
 
-.projects h1 {
+.single-title h1 {
   margin-bottom: 60px;
 }
 
@@ -416,40 +457,16 @@ footer {
   line-height: 34px;
 }
 
+.markdown h3 {
+  margin: 0;
+}
+
 .markdown a {
   color: #333333;
 }
 
 .contact {
-  padding-top: 160px;
-  margin-bottom: 60px;
-}
-
-.form-group {
-  margin-bottom: 30px;
-}
-
-.form-control {
-  display: block;
-  width: 100%;
-  max-width: 650px;
-  height: 30px;
-  padding: 6px 12px;
-  font-size: 14px;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: none;
-}
-
-.contact label {
-  font-size: 14px;
-  color: #888888;
-  line-height: 32px;
-}
-
-.contact textarea {
-  height: auto;
+  margin-bottom: 140px;
 }
 
 .btn {
@@ -473,8 +490,254 @@ footer {
   -webkit-transition: all 0.8s;
 }
 
+/* 404 page */
+.error {
+  text-align:center;
+  margin-top:200px;
+  font-size:32px;
+  padding-bottom:200px;
+}
+
 /* Smooch Styling */
 
 #sk-holder #sk-container {
   z-index: 10002 !important;
+  border-radius: 0 !important;
+}
+
+#sk-holder #sk-container #sk-header {
+  border-radius: 0 !important;
+}
+
+#sk-holder #sk-container #sk-conversation .sk-row.sk-right-row .sk-msg {
+  background-color: #333333 !important;
+}
+
+#sk-holder #sk-container #sk-conversation .sk-row .sk-msg-wrapper .sk-msg {
+  border-left-color: #333333 !important;
+}
+
+/* Video */
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+
+/* Locations */
+
+.locations {
+  background-color: #f7f7f7;
+  padding: 80px 0px;
+}
+
+/* Team */
+
+.team-page {
+  margin-bottom: 25px;
+}
+.team-page h1 {
+    font-size: 60px;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #cecece;
+    margin-top: 180px;
+}
+
+.ind-team {
+  text-align: center;
+}
+
+.ind-team img{
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 7px solid white;
+    width: 225px;
+    height: 225px;
+}
+
+.ind-team h2 {
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 20px
+}
+
+.ind-team h4 {
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.ind-team h5 {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+.icon-social {
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: -10px;
+}
+
+.icon-social i {
+  text-align: center;
+  color: white;
+  padding: 7px;
+}
+
+ /* Individual Team Members */
+
+ .personal-pic img {
+   border-radius: 50%;
+   height: 300px;
+   width: 300px;
+   text-align: center;
+   margin-left: 125px;
+   border: 7px solid white;
+ }
+
+ .personal-title h1 {
+   font-size: 60px;
+   color: #222222;
+   font-family: 'Oswald';
+   font-weight: 300;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 60px;
+   border-bottom: 1px solid #cecece;
+   width: 475px;
+}
+
+ .personal-info  {
+   margin-left: 50px
+ }
+
+
+ /* The Overlay (background) */
+.overlay-mobile {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Sit on top */
+    transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -moz-transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    display: none;
+}
+
+.overlay-mobile.open {
+  transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.openbtn {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 668px) {
+  .overlay-mobile {
+    display: block;
+  }
+  .openbtn {
+    display: block;
+  }
+  .nav-item {
+    display: none;
+  }
+}
+
+/* The navigation links inside the overlay */
+.overlay-mobile a {
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+    line-height: 52px;
+    color: #ffffff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay-mobile a:hover, .overlay-mobile a:focus {
+    color: #777777;
+}
+
+.overlay-mobile a.link-section-nav {
+  clear: both;
+}
+
+.overlay-mobile a.link-page-nav {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999999;
+  float: left;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    width: 90%; /* 100% width */
+    margin: 0 auto;
+    padding: 38px 0px;
+    clear: both;
+}
+
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 32px;
+    right: 29px;
+    font-size: 60px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay-mobile a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
 }

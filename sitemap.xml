@@ -1,59 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
+  
   <url>
-    <loc>/</loc>
-    <lastmod>2016-05-12T15:18:04-04:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.levelbits.com/contact/</loc>
+  </url>
+
+  
+  <url>
+    <loc>http://www.levelbits.com/contact/denver-colorado/</loc>
+    <lastmod>2016-05-23T15:14:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/not-waste/</loc>
+    <loc>http://www.levelbits.com/contact/fort-wayne-indiana/</loc>
+    <lastmod>2016-05-23T15:14:04-04:00</lastmod>
+  </url>
+  
+  
+  <url>
+    <loc>http://www.levelbits.com/projects/</loc>
+  </url>
+
+  
+  <url>
+    <loc>http://www.levelbits.com/projects/not-waste/</loc>
     <lastmod>2016-05-12T15:18:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/aoc-financial/</loc>
+    <loc>http://www.levelbits.com/projects/aoc-financial/</loc>
     <lastmod>2016-05-12T15:17:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/american-minerals/</loc>
+    <loc>http://www.levelbits.com/projects/american-minerals/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/services/design/</loc>
+    <loc>http://www.levelbits.com/projects/valkyrie/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/services/development/</loc>
-    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/services/digital-marketing/</loc>
-    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/valkyrie/</loc>
-    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/pestle/</loc>
+    <loc>http://www.levelbits.com/projects/pestle/</loc>
     <lastmod>2016-05-12T15:15:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/projects/la-loma/</loc>
+    <loc>http://www.levelbits.com/projects/la-loma/</loc>
     <lastmod>2016-05-12T15:14:04-04:00</lastmod>
   </url>
   
+  
   <url>
-    <loc>/contact/</loc>
+    <loc>http://www.levelbits.com/services/</loc>
   </url>
+
+  
+  <url>
+    <loc>http://www.levelbits.com/services/design/</loc>
+    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/services/development/</loc>
+    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/services/digital-marketing/</loc>
+    <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+  </url>
+  
   
 </urlset>

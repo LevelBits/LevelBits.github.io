@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Level Bits</title>
-    <link>/services/</link>
+    <link>http://www.levelbits.com/services/</link>
     <description>Recent content in Services on Level Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2016 15:16:04 -0400</lastBuildDate>
-    <atom:link href="/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.levelbits.com/services/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Design</title>
-      <link>/services/design/</link>
+      <link>http://www.levelbits.com/services/design/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/services/design/</guid>
+      <guid>http://www.levelbits.com/services/design/</guid>
       <description>
 
 &lt;h3 id=&#34;we-design:83772ba7ad0304b1562d08f190539946&#34;&gt;We Design&lt;/h3&gt;
 
-&lt;p&gt;Our developers are always ahead of the industry and working with the newest software.&lt;/p&gt;
+&lt;p&gt;Brand identity, website design, application wireframe and UI – design is the beginning of all production.&lt;/p&gt;
 
 &lt;h4 id=&#34;our-methodology:83772ba7ad0304b1562d08f190539946&#34;&gt;Our Methodology&lt;/h4&gt;
 
@@ -46,17 +46,15 @@ expectations.&lt;/p&gt;
     
     <item>
       <title>Development</title>
-      <link>/services/development/</link>
+      <link>http://www.levelbits.com/services/development/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/services/development/</guid>
+      <guid>http://www.levelbits.com/services/development/</guid>
       <description>
 
 &lt;h3 id=&#34;we-develop:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;We Develop&lt;/h3&gt;
 
-&lt;p&gt;Our developers are always ahead
-of the the industry and working with
-the newest software.&lt;/p&gt;
+&lt;p&gt;Our team of professionals build and create unique applications for the Web, iOS and Android platforms.&lt;/p&gt;
 
 &lt;h4 id=&#34;our-methodology:c51f1b783d6e6b3bc97ce5906e9605d3&#34;&gt;Our Methodology&lt;/h4&gt;
 
@@ -83,10 +81,10 @@ expectations.&lt;/p&gt;
     
     <item>
       <title>Digital Marketing</title>
-      <link>/services/digital-marketing/</link>
+      <link>http://www.levelbits.com/services/digital-marketing/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>/services/digital-marketing/</guid>
+      <guid>http://www.levelbits.com/services/digital-marketing/</guid>
       <description>
 
 &lt;h3 id=&#34;we-deliver:a1b5fef42caa47c2a9bdffa77f374687&#34;&gt;We Deliver&lt;/h3&gt;
