@@ -1,5 +1,16 @@
-{{ partial "head.html" . }}
-  404 not found!!
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div>
+    <h3 class="error">Error 404:
+    <br>
+    The page you are looking for does not exist.</h3>
+
+  </div>
   {{ partial "footer.html" . }}
   {{ partial "js.html" . }}
 </body>

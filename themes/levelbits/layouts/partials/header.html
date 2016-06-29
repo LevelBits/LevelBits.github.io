@@ -1,11 +1,27 @@
+<div id="myNav" class="overlay-mobile">
+
+  <div class="overlay-content">
+    {{ $pages := .Site.Pages.ByWeight }}
+    {{ range .Site.Menus.main }}
+    <a id="{{.Identifier}}-nav-item-mobile" class="link-section-nav" href="{{.URL}}">{{ .Name }}</a>
+    {{ range where $pages "Section" .Identifier }}
+    <a href="{{ .Permalink }}" class="link-page-nav">{{ .Title }}</a>
+    {{ end }}
+    {{ end }}
+  </div>
+  <a href="#" class="closebtn">&times;</a>
+</div>
 <div class="container-fluid nav-bar">
   <div class="row middle-xs end-xs row-contain">
     <div class="col-xs">
       <a href="/"><div class="logo"></div></a>
     </div>
+    <div class="col-xs">
+      <span class="openbtn">☰</span>
+    </div>
     {{ $pages := .Site.Pages.ByWeight }}
     {{ range .Site.Menus.main }}
-    <div class="col-xs nav-item">
+    <div class="nav-item">
       <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
       <ul>
         {{ range where $pages "Section" .Identifier }}
