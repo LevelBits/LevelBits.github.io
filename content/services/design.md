@@ -9,7 +9,7 @@ height = "height"
 +++
 
 ### We Design
-Our developers are always ahead of the industry and working with the newest software.
+Brand identity, website design, application wireframe and UI – design is the beginning of all production.
 
 #### Our Methodology
 At Level Bits, our team of

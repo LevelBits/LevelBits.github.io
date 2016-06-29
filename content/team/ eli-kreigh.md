@@ -1,4 +1,5 @@
 +++
+draft = true
 date = "2016-05-12T15:16:04-04:00"
 title = "Eli Kreigh"
 image ="http://www.prepcasts.com/wp-content/uploads/2014/04/BasketballStockImage.jpg"
@@ -11,4 +12,4 @@ linkedin = "https://www.linkedin.com/in/eli-kreigh-94064b121?authType=NAME_SEARC
 
 
 ## Development
-Eli is one of our talented developers, who strives to bring the best product to our customers everyday. He works with our designer, Dylan, to build new and innovative websites. Eli and Michael work together, as a team, to bring the website to production level for our clients. 
+Eli is one of our talented developers, who strives to bring the best product to our customers everyday. He works with our designer, Dylan, to build new and innovative websites. Eli and Michael work together, as a team, to bring the website to production level for our clients.

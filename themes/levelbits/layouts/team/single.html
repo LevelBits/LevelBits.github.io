@@ -12,17 +12,13 @@
       <div class="col-md-4 markdown personal-info">
         {{ .Content }}
         <div class="icon-social">
-          <a href="https://www.facebook.com/levelbits/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="mailto:{{ .Params.email}}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
         </div>
         <div class="icon-social">
           <a href="{{ .Params.linkedin }}" target="_blank"><i class="fa fa-linkedin-square " aria-hidden="true"></i></a>
         </div>
-        <div class="icon-social">
-          <a href="https://twitter.com/LevelBits?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </div>
       </div>
     </div>
-
   </div>
   {{ partial "footer.html" . }}
   {{ partial "js.html" . }}

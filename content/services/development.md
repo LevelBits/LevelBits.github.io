@@ -9,9 +9,7 @@ height = "height"
 +++
 
 ### We Develop
-Our developers are always ahead
-of the the industry and working with
-the newest software.
+Our team of professionals build and create unique applications for the Web, iOS and Android platforms.
 
 #### Our Methodology
 At Level Bits, our team of
