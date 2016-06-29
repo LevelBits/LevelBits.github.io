@@ -53,23 +53,10 @@ a {
   z-index: 10001;
 }
 
-.alt-position {
-  margin-top: 0px;
-  -webkit-transition: .4s ease-in; /* Safari */
-  transition: .4s ease-in;
-  position: fixed;
-}
-
 @media (max-width: 668px) {
-  .alt-position {
+  .nav-bar {
     position: absolute;
   }
-}
-
-.alt-color {
-  background-color: #ffffff;
-  -webkit-transition: .5s ease-in; /* Safari */
-  transition: .5s ease-in;
 }
 
 .nav-bar .row {
@@ -145,16 +132,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
         background-image: url(/images/level-bits-logo@2x.png);
         background-size: 185px 20px;
     }
-}
-
-.alt-logo {
-  width: 185px;
-  height: 40px;
-  background-image: url(/images/level-bits-symbol.png);
-  background-position: center;
-  -webkit-transition: .2s ease-in; /* Safari */
-  transition: .2s ease-in;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -316,6 +293,31 @@ footer {
 @media (max-width: 450px) {
   .grid-item {
     margin-bottom: 2px;
+  }
+}
+
+@media (min-width: 450px) {
+  .alt-position {
+    margin-top: 0px;
+    -webkit-transition: .4s ease-in; /* Safari */
+    transition: .4s ease-in;
+    position: fixed;
+  }
+
+  .alt-color {
+    background-color: #ffffff;
+    -webkit-transition: .5s ease-in; /* Safari */
+    transition: .5s ease-in;
+  }
+
+  .alt-logo {
+    width: 185px;
+    height: 40px;
+    background-image: url(/images/level-bits-symbol.png);
+    background-position: center;
+    -webkit-transition: .2s ease-in; /* Safari */
+    transition: .2s ease-in;
+    background-repeat: no-repeat;
   }
 }
 
@@ -698,8 +700,8 @@ video#bgvid {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-size: 36px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 46px;
     color: #ffffff;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
@@ -719,6 +721,10 @@ video#bgvid {
   line-height: 28px;
   color: #999999;
   float: left;
+}
+
+.overlay-mobile a.link-page-nav:hover {
+  color: #777777;
 }
 
 /* Position the content inside the overlay */
