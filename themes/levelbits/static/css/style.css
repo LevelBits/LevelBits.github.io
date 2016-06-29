@@ -567,21 +567,14 @@ video#bgvid {
     font-family: "Oswald";
     font-weight: 400;
     font-size: 20px
-    }
+}
 
 .ind-team h4 {
     text-align: center;
-    margin-top: -15px;
+    margin-top: -10px;
     font-family: 'Oswald';
-    font-weight: 300;
+    font-weight: 100;
     font-size: 14px;
-}
-
-
-.ind-team h5 {
-  text-align: center;
-  margin-top: -10px;
-  font-size: 10px;
 }
 
 .icon-social{
@@ -589,17 +582,18 @@ video#bgvid {
   border-radius: 50%;
   border: 2px solid white;
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   text-align: center;
   background-color: black;
   color: white;
+  margin-top: -10px;
 }
 
-i {
+.icon-social i {
   text-align: center;
   color: white;
-  padding: 10px;
+  padding: 7px;
 }
  /* Individual Team Members */
 
@@ -609,6 +603,7 @@ i {
    width: 300px;
    text-align: center;
    margin-left: 125px;
+   border: 7px solid white;
  }
 
  .personal-title h1 {
@@ -618,11 +613,11 @@ i {
    font-weight: 300;
    margin-left: auto;
    margin-right: auto;
-   margin-bottom: 50px;
+   margin-bottom: 60px;
    border-bottom: 1px solid #cecece;
- }
+   width: 475px;
+}
 
  .personal-info  {
    margin-left: 50px
-
  }
