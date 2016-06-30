@@ -1,8 +1,7 @@
 +++
 date = "2016-05-23T15:14:04-04:00"
 title = "Fort Wayne, Indiana"
-lat = 41.126918
-lng = -85.152280
+map = "/images/fort-wayne-map.png"
 +++
 
 ### Fort Wayne, Indiana

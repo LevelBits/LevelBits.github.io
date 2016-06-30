@@ -1,6 +1,7 @@
 +++
 date = "2016-05-23T15:14:04-04:00"
 title = "Denver, Colorado"
+map = "/images/denver-map.png"
 lat = 39.7392
 lng= -104.9903
 +++
