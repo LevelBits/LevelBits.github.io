@@ -460,6 +460,19 @@ footer {
   max-width: 750px;
 }
 
+.markdown p {
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.markdown h3 {
+  margin: 0;
+}
+
+.markdown a {
+  color: #333333;
+}
+
 .contact {
   margin-bottom: 140px;
 }
@@ -740,3 +753,48 @@ video#bgvid {
         right: 35px;
     }
 }
+
+/* Direction buttons for service slides */
+
+.pull-right {
+  color: #555555;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: ##555555;
+  padding: 10px 20px;
+  letter-spacing: .05px;
+  background-color: transparent;
+  border-width: 2px;
+  font-weight: 500;
+  margin-top: -50px;
+  font-size: 15px;
+}
+
+.pull-right:hover {
+    background-color: #555555;
+    color: #fff;
+    transition: all 0.4s;
+    -webkit-transition: all 0.8s;
+  }
+
+.pull-left {
+  color: #555555;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #555555;
+  padding: 10px 20px;
+  letter-spacing: .05px;
+  background-color: transparent;
+  border-width: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: -50px;
+}
+
+.pull-left:hover {
+    background-color: #555555;
+    color: #fff;
+    transition: all 0.4s;
+    -webkit-transition: all 0.8s;
+  }
