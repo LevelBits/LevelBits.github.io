@@ -10,12 +10,9 @@ preview = "/images/american-minerals-preview.jpg"
 
 ### American Minerals
 
-**Client**  American Minerals
-
-**Services**  Web Design
-
-**Year**  2015-2016
-
+**Client**  American Minerals  
+**Services**  Web Design  
+**Year**  2015-2016  
 **Link**  [www.americanminerals.com](http://americanminerals.com)
 
 ***

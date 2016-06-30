@@ -10,12 +10,9 @@ preview = "/images/la-loma-preview.jpg"
 
 ### La Loma
 
-**Client**  La Loma Mexican Kitchen
-
-**Services**  Web Design
-
+**Client**  La Loma Mexican Kitchen  
+**Services**  Web Design  
 **Year** 2015-2016  
-
 **Link**  [www.lalomamexican.com](http://lalomamexican.com)
 
 ***

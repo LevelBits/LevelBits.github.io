@@ -10,12 +10,9 @@ preview = "/images/pestle-preview.jpg"
 
 ### Pestle
 
-**Client**  Pestle | Pharmacy Compliance System
-
-**Services**  Software Development
-
-**Year**  2015-2016
-
+**Client**  Pestle | Pharmacy Compliance System  
+**Services**  Software Development  
+**Year**  2015-2016  
 **Link**  [www.rxpestle.com](http://rxpestle.com)
 
 ***

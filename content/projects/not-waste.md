@@ -10,12 +10,9 @@ preview = "/images/not-waste-preview.jpg"
 
 ### Not Waste
 
-**Client**  Materials Lifecycle Management Company®
-
-**Services**  Web Design
-
-**Year**  2015-2016
-
+**Client**  Materials Lifecycle Management Company®  
+**Services**  Web Design  
+**Year**  2015-2016  
 **Link**  [www.notwaste.com](http://notwaste.com)
 
 ***

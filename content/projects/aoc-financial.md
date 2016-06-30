@@ -10,10 +10,8 @@ preview = "/images/aoc-preview.jpg"
 
 ### AOC Financial
 
-**Client**  AOC Financial
-
-**Services**  Web Design
-
+**Client**  AOC Financial  
+**Services**  Web Design  
 **Year**  2015-2016
 
 ***
