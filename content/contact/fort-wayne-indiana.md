@@ -7,7 +7,7 @@ lng = -85.152280
 
 ### Fort Wayne, Indiana
 
-310 Merchandise Dr.<br>
+5310 Merchandise Dr.<br>
 Fort Wayne, Indiana 46825<br>
 United States of America<br>
 
