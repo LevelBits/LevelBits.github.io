@@ -53,23 +53,10 @@ a {
   z-index: 10001;
 }
 
-.alt-position {
-  margin-top: 0px;
-  -webkit-transition: .4s ease-in; /* Safari */
-  transition: .4s ease-in;
-  position: fixed;
-}
-
 @media (max-width: 668px) {
-  .alt-position {
+  .nav-bar {
     position: absolute;
   }
-}
-
-.alt-color {
-  background-color: #ffffff;
-  -webkit-transition: .5s ease-in; /* Safari */
-  transition: .5s ease-in;
 }
 
 .nav-bar .row {
@@ -145,16 +132,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
         background-image: url(/images/level-bits-logo@2x.png);
         background-size: 185px 20px;
     }
-}
-
-.alt-logo {
-  width: 185px;
-  height: 40px;
-  background-image: url(/images/level-bits-symbol.png);
-  background-position: center;
-  -webkit-transition: .2s ease-in; /* Safari */
-  transition: .2s ease-in;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -281,7 +258,7 @@ footer {
   overflow: hidden;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .grid-item, .grid-sizer {
     width: 100%;
   }
@@ -303,13 +280,44 @@ footer {
   -moz-transition: all 0.2s;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .secondary {
     opacity: 1;
     visibility: visible;
     transform: none;
     -webkit-transform: none;
     -moz-transform: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .grid-item {
+    margin-bottom: 2px;
+  }
+}
+
+@media (min-width: 450px) {
+  .alt-position {
+    margin-top: 0px;
+    -webkit-transition: .4s ease-in; /* Safari */
+    transition: .4s ease-in;
+    position: fixed;
+  }
+
+  .alt-color {
+    background-color: #ffffff;
+    -webkit-transition: .5s ease-in; /* Safari */
+    transition: .5s ease-in;
+  }
+
+  .alt-logo {
+    width: 185px;
+    height: 40px;
+    background-image: url(/images/level-bits-symbol.png);
+    background-position: center;
+    -webkit-transition: .2s ease-in; /* Safari */
+    transition: .2s ease-in;
+    background-repeat: no-repeat;
   }
 }
 
@@ -343,7 +351,7 @@ footer {
   visibility: visible;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .overlay {
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -450,19 +458,6 @@ footer {
 .preview-img {
   width: 100%;
   max-width: 750px;
-}
-
-.markdown p {
-  font-size: 14px;
-  line-height: 34px;
-}
-
-.markdown h3 {
-  margin: 0;
-}
-
-.markdown a {
-  color: #333333;
 }
 
 .contact {
@@ -692,8 +687,8 @@ video#bgvid {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-size: 36px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 46px;
     color: #ffffff;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
@@ -713,6 +708,10 @@ video#bgvid {
   line-height: 28px;
   color: #999999;
   float: left;
+}
+
+.overlay-mobile a.link-page-nav:hover {
+  color: #777777;
 }
 
 /* Position the content inside the overlay */
