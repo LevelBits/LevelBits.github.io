@@ -20,15 +20,17 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs" class="direction-arrows">
+      <div class="col-xs start-xs">
         {{if .NextInSection}}
-        <a href="{{.NextInSection.Permalink}}" class="pull-left" rel="prev">
+        <a href="{{.NextInSection.Permalink}}" class="btn-left" rel="prev">
           <i class="fa fa-arrow-left" aria-hidden="true"></i>
           {{ .NextInSection.Title }}
         </a>
         {{end}}
+      </div>
+      <div class="col-xs end-xs">
         {{if .PrevInSection}}
-        <a href="{{.PrevInSection.Permalink}}" class="pull-right" rel="next">
+        <a href="{{.PrevInSection.Permalink}}" class="btn-right" rel="next">
           {{ .PrevInSection.Title }}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>

@@ -756,7 +756,7 @@ video#bgvid {
 
 /* Direction buttons for service slides */
 
-.pull-right {
+.btn-right {
   color: #555555;
   border-radius: 4px;
   border-style: solid;
@@ -766,18 +766,21 @@ video#bgvid {
   background-color: transparent;
   border-width: 2px;
   font-weight: 500;
-  margin-top: -50px;
   font-size: 15px;
+  margin-top: 35px;
+  display: inline-block;
 }
 
-.pull-right:hover {
+
+
+.btn-right:hover {
     background-color: #555555;
     color: #fff;
     transition: all 0.4s;
     -webkit-transition: all 0.8s;
   }
 
-.pull-left {
+.btn-left{
   color: #555555;
   border-radius: 4px;
   border-style: solid;
@@ -789,10 +792,11 @@ video#bgvid {
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
-  margin-top: -50px;
+  margin-top: 25px;
+  display: inline-block;
 }
 
-.pull-left:hover {
+.btn-left:hover {
     background-color: #555555;
     color: #fff;
     transition: all 0.4s;
