@@ -8,4 +8,4 @@ height = "height"
 icon = "fa fa-code"
 +++
 
-Our team of professionals build and create unique applications for the Web, iOS and Android platforms.
+At Level Bits, we develop custom and template-based products for our clients. We have a team of dedicated developers who work with our clients to better understand their exact needs. We can ensure you'll be getting a fully functional product extensively tested and reviewed before delivery. 
