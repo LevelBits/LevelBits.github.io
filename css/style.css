@@ -436,6 +436,22 @@ footer {
   padding: 80px 0px;
 }
 
+@media (max-width: 948px) {
+  .logos .col-xs {
+    width: 33.3333333%;
+    flex-basis: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 648px) {
+  .logos .col-xs {
+    width: 50%;
+    flex-basis: auto;
+    margin-bottom: 20px;
+  }
+}
+
 .single-title {
   padding-top: 140px;
   padding-bottom: 60px;
@@ -802,3 +818,9 @@ video#bgvid {
     transition: all 0.4s;
     -webkit-transition: all 0.8s;
   }
+
+@media (max-width: 1024px) {
+  .see-more {
+    margin-bottom: 40px;
+  }
+}
