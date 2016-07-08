@@ -39,23 +39,34 @@ copyright = "© 2016 Level Bits LLC. All rights reserved."
   name = "Facebook"
   link = "https://www.facebook.com/levelbits"
   icon = "fa fa-facebook"
+  target = "_blank"
 
   [[params.footer.social]]
   name = "Twitter"
   link = "https://twitter.com/levelbits"
   icon = "fa fa-twitter"
+  target = "_blank"
 
   [[params.footer.social]]
   name = "Instagram"
   link = "https://www.instagram.com/levelbits"
   icon = "fa fa-instagram"
+  target = "_blank"
 
   [[params.footer.social]]
   name = "Google"
   link = "https://google.com/+levelbits-"
   icon = "fa fa-google-plus"
+  target = "_blank"
 
   [[params.footer.social]]
   name = "LinkedIn"
   link = "https://www.linkedin.com/company/level-bits"
   icon = "fa fa-linkedin"
+  target = "_blank"
+
+  [[params.footer.social]]
+  name = "Email"
+  link = "mailto:jacob@levelbits.com"
+  icon = "fa fa-envelope"
+  target = "_self"

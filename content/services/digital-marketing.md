@@ -6,6 +6,7 @@ secondary = "/images/digital-marketing-p2.png"
 preview = "/images/about.jpg"
 height = "height"
 icon = "fa fa-cube"
+excerpt = "At Level Bits, we review and establish digital marketing strategies aimed to help..."
 +++
 
 At Level Bits, we review and establish digital marketing strategies aimed to help our clients reach customers online. Our goal for SEO (Search Engine Optimization) is to bring your site higher up in organic search results, driving more customers through your website and into your business.

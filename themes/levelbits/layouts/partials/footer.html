@@ -9,7 +9,7 @@
   <div class="row around-xs social">
     {{ range .Site.Params.footer.social }}
     <div class="social-item">
-      <i class="{{ .icon }}" aria-hidden="true"></i><a href="{{ .link }}" target="_blank"><p>{{ .name }}</p></a>
+      <i class="{{ .icon }}" aria-hidden="true"></i><a href="{{ .link }}" target="{{ .target }}"><p>{{ .name }}</p></a>
     </div>
     {{ end }}
   </div>

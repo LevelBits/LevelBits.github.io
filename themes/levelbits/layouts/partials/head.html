@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ .Hugo.Generator }}
+
+  {{ if .IsHome }}
+  <title>{{ .Title}} | {{ .Site.Params.tagline }}</title>
+  {{ else }}
+  <title>{{ .Site.Title }} | {{ .Title }}</title>
+  {{ end }}
   <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
   <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
   <meta property="og:title" content="{{ .Site.Title }}">
@@ -22,14 +29,6 @@
   <meta itemprop="description" content="{{ .Site.Params.description }}">
   <meta itemprop="image" content="{{ .Site.Params.image }}">
   <meta property="fb:admins" content="100009715599548">
-
-  {{ .Hugo.Generator }}
-
-  {{ if .IsHome }}
-  <title>{{ .Title}} | {{ .Site.Params.tagline }}</title>
-  {{ else }}
-  <title>{{ .Site.Title }} | {{ .Title }}</title>
-  {{ end }}
 
   <link href="{{ .Site.BaseURL }}css/flexboxgrid.min.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}css/style.css" rel="stylesheet">

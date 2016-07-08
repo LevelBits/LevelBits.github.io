@@ -6,6 +6,7 @@ secondary = "/images/design-p2.png"
 preview = "/images/about.jpg"
 height = "height"
 icon = "fa fa-file-image-o"
+excerpt = "At Level Bits, we have a team of talented designers who work closely with one another to deliver..."
 +++
 
 At Level Bits, we have a team of talented designers who work closely with one another to deliver a fully polished, organized product to our clients. Our designers pay meticulous attention to details ensuring the end product has a sleek design exceeding usability expectations.

@@ -12,8 +12,8 @@
       <div class="col-md-4">
         <i class="{{ .Params.icon }}" aria-hidden="true"></i>
         <h2>{{ .Title }}</h2>
-        <p>{{ .Summary }}</p>
-        <a href="{{ .Permalink }}"><button class="btn">See More</button></a>
+        <p>{{ .Params.excerpt }}</p>
+        <a href="{{ .Permalink }}"><button class="btn see-more">See More</button></a>
       </div>
       {{ end }}
     </div>
