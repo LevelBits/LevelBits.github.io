@@ -5,7 +5,7 @@ logo = "/images/american-minerals-logo@2x.png"
 primary = "/images/american-minerals-p1.png"
 secondary = "/images/american-minerals-p2.png"
 preview = "/images/american-minerals-preview.jpg"
-
+excerpt = "American Minerals is a mineral and royalty company..."
 +++
 
 ### American Minerals

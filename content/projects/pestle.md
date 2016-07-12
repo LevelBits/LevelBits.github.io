@@ -5,7 +5,7 @@ logo = "/images/pestle-logo@2x.png"
 primary = "/images/pestle-p1.png"
 secondary = "/images/pestle-p2.png"
 preview = "/images/pestle-preview.jpg"
-
+excerpt = "Pestle™ provides an easy to use web-based system..."
 +++
 
 ### Pestle

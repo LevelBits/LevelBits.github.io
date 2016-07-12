@@ -5,7 +5,7 @@ logo = "/images/valkyrie-logo@2x.png"
 primary = "/images/valkyrie-p1.png"
 secondary = "/images/valkyrie-p2.png"
 preview = "/images/valkyrie-preview.jpg"
-
+excerpt = "Renée Brinkerhoff is an American auto-racing driver..."
 +++
 
 ### Valkyrie

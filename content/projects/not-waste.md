@@ -5,7 +5,7 @@ logo = "/images/not-waste-logo@2x.png"
 primary = "/images/not-waste-p1.png"
 secondary = "/images/not-waste-p2.png"
 preview = "/images/not-waste-preview.jpg"
-
+excerpt = "MLMC is a rapidly expanding materials management company..."
 +++
 
 ### Not Waste
