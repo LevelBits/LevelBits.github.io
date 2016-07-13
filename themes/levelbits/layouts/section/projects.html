@@ -1,17 +1,13 @@
 {{ partial "head.html" . }}
-  <div class="container-fluid">
+  <div class="container-fluid section">
     <div class="row center-xs row-contain project-list">
     {{ range where .Site.Pages.ByDate "Section" "projects" }}
-      <div class="col-xs-12 col-sm-6 project-list-item">
+      <div class="col-xs-10 col-md-6 project-list-item">
         <a href="{{ .Permalink }}" class="project-link">
-          <div class="project-background">
-            <img src="http://truththeory.com/wp-content/uploads/2016/03/farmer-657333_960_720.jpg" class="project-preview">
-            <img src="{{ .Params.preview }}">
-          </div>
-          <div class="project-head">
-            <img src='{{ .Params.logo }}'>
-            <h2>{{ .Title }}</h2>
-            <p>{{ .Params.excerpt }}</p>
+          <div class="project-background" style="background-image: url('{{ .Params.secondary }}')">
+            <div class="project-head">
+              <img src='{{ .Params.logo }}'>
+            </div>
           </div>
         </a>
       </div>
