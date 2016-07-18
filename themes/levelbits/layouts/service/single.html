@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="container section">
+    <div class="row row-contain center-xs">
+      <div class="col-md-12">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+    <div class="row row-contain">
+      <div class="col-md-8 col-xs-12 preview">
+        <img src="{{ .Params.preview }}" class="preview-img">
+      </div>
+      <div class="col-md-4 col-xs-12">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs start-xs">
+        {{if .NextInSection}}
+        <a href="{{.NextInSection.Permalink}}" class="btn-left" rel="prev">
+          <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          {{ .NextInSection.Title }}
+        </a>
+        {{end}}
+      </div>
+      <div class="col-xs end-xs">
+        {{if .PrevInSection}}
+        <a href="{{.PrevInSection.Permalink}}" class="btn-right" rel="next">
+          {{ .PrevInSection.Title }}
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        {{end}}
+      </div>
+    </div>
+
+  </div>
+
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>
