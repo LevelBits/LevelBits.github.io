@@ -5,10 +5,7 @@ logo = "/images/aoc-logo@2x.png"
 primary = "/images/aoc-p1.png"
 secondary = "/images/aoc-p2.png"
 preview = "/images/aoc-preview.jpg"
-excerpt = "Our goal is to help clients achieve financial success... "
 +++
-
-### AOC Financial
 
 **Client**  AOC Financial  
 **Services**  Web Design  

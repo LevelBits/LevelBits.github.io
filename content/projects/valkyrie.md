@@ -5,12 +5,9 @@ logo = "/images/valkyrie-logo@2x.png"
 primary = "/images/valkyrie-p1.png"
 secondary = "/images/valkyrie-p2.png"
 preview = "/images/valkyrie-preview.jpg"
-excerpt = "Renée Brinkerhoff is an American auto-racing driver..."
 +++
 
-### Valkyrie
-
-**Client**  Valkyrie Racing  
+**Client**  Valkyrie Racing
 **Services**  Web Design  
 **Year**  2015-2016  
 **Link**  [www.valkyrieracing.com](http://valkyrieracing.com)

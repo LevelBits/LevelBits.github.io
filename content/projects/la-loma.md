@@ -5,10 +5,7 @@ logo = "/images/la-loma-logo@2x.png"
 primary = "/images/la-loma-p1.png"
 secondary = "/images/la-loma-p2.png"
 preview = "/images/la-loma-preview.jpg"
-excerpt = "La Loma began as a family-owned Mexican restaurant..."
 +++
-
-### La Loma
 
 **Client**  La Loma Mexican Kitchen  
 **Services**  Web Design  
