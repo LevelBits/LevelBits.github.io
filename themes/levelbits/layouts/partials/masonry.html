@@ -17,7 +17,7 @@
       </div>
     </a>
     {{ end }}
-    {{ range where .Data.Pages.ByDate "Section" "projects" }}
+    {{ range first 6 (where .Data.Pages.ByDate "Section" "projects") }}
     <a href="{{ .Permalink }}">
       <div class="grid-item {{ .Params.height }}">
         <div class="overlay">

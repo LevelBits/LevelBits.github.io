@@ -4,9 +4,12 @@
     {{ range where .Site.Pages.ByDate "Section" "projects" }}
       <div class="col-xs-10 col-md-6 project-list-item">
         <a href="{{ .Permalink }}" class="project-link">
+          <div class="project-head">
+            <img src='{{ .Params.logo }}'>
+          </div>
           <div class="project-background" style="background-image: url('{{ .Params.secondary }}')">
-            <div class="project-head">
-              <img src='{{ .Params.logo }}'>
+            <div class="project-title">
+              <h2>{{ .Title }}</h2>
             </div>
           </div>
         </a>

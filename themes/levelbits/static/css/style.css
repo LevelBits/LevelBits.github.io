@@ -559,6 +559,12 @@ video#bgvid {
   background-size: cover;
 }
 
+@media (max-width: 450px) {
+  video#bgvid {
+    display: none;
+  }
+}
+
 /* Locations */
 
 .locations {
@@ -841,23 +847,27 @@ video#bgvid {
   position: relative;
   height: 0;
   padding: 56.25% 0 0 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.project-background .project-title {
+  position: absolute;
+  opacity: 0;
 }
 
 .project-head {
-  text-align: center;
   position: absolute;
-  left: 25px;
+  left: 30px;
   top: -3px;
-
   width: 65px;
   height: 100px;
   padding: 0 4px 4px 4px;
-
-  -webkit-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
-  -moz-box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
-  box-shadow:  0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
-
-  background: white;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
+  background: #ffffff;
+  z-index: 2;
 }
 
 .project-head:before, .project-head:after {
@@ -895,4 +905,35 @@ video#bgvid {
   max-height: inherit;
   position: relative;
   z-index: 1;
+}
+
+@media (min-width: 500px) {
+  .project-background .project-title {
+    transform: translateY(75%);
+    transition: .4s;
+  }
+
+  .project-background:hover .project-title {
+    transform: translateY(-75%);
+    transition: .3s;
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .project-title h2 {
+    font-size: 36px;
+    color: white;
+    vertical-align: middle;
+  }
+
+  .project-title {
+    position: absolute;
+    background-color: black;
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    padding-top: 19%;
+  }
 }
