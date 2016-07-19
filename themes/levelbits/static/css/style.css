@@ -945,3 +945,13 @@ video#bgvid {
     font-size: 30px;
   }
 }
+
+.fort-wayne-img {
+  width: 100%;
+  max-width: 776px;
+}
+
+.denver-img {
+  width: 100%;
+  max-width: 979px;
+}
