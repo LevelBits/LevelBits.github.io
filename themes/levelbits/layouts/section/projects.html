@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
   <div class="container-fluid section">
-    <div class="row center-xs row-contain project-list">
+    <div class="row row-contain project-list">
     {{ range where .Site.Pages.ByDate "Section" "projects" }}
       <div class="col-xs-10 col-md-6 project-list-item">
         <a href="{{ .Permalink }}" class="project-link">
@@ -9,7 +9,7 @@
           </div>
           <div class="project-background" style="background-image: url('{{ .Params.secondary }}')">
             <div class="project-title">
-              <h2>{{ .Title }}</h2>
+              <h3>{{ .Title }}</h3>
             </div>
           </div>
         </a>
