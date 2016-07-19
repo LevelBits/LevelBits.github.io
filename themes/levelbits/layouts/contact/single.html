@@ -1,20 +1,22 @@
 {{ partial "head.html" . }}
-  <video autoplay loop muted id="bgvid">
-    <source src="/images/basketball-drone.mp4" type="video/mp4">
-  </video>
-    {{ partial "header.html" . }}
   <div class="container single-title">
     <div class="row center-xs row-contain">
       <div class="col-md-12">
-        <h1>{{ .Title }}</h1>
+        <div class="row center-xs">
+          <h1>{{ .Title }}</h1>
+            <div>
+              <img src="{{ .Params.header }}" width="{{ .Params.width }}"/>
+            </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid locations">
+  <div class="container-fluid services-list">
     <div class="row row-contain">
       <div class="col-xs-12 col-sm-7">
         {{ .Content }}
         <img src="{{ .Params.map }}" style="max-width: 100%;">
+        <p>{{ .Description }}</p>
       </div>
     </div>
   </div>

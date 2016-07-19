@@ -454,11 +454,12 @@ footer {
 
 .single-title {
   padding-top: 140px;
-  padding-bottom: 60px;
 }
 
 .single-title h1 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 48px;
 }
 
 .preview {
@@ -868,6 +869,7 @@ video#bgvid {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .3), inset 0px 1px 0px 0px rgba(255, 255, 255, .15);
   background: #ffffff;
   z-index: 2;
+  text-align: center;
 }
 
 .project-head:before, .project-head:after {
@@ -890,13 +892,11 @@ video#bgvid {
 }
 
 .project-head:after {
-  border-bottom: 1px dashed rgba(255,255,255, .1);
-  border-left: 1px dashed rgba(255,255,255, .1);
-  border-right: 1px dashed rgba(255,255,255, .1);
-  top: 7px;
-  left: 7px;
-  margin-top: 1px;
-  margin-left: 1px;
+  border-bottom: 1px dashed rgba(255,255,255, .2);
+  border-left: 1px dashed rgba(255,255,255, .2);
+  border-right: 1px dashed rgba(255,255,255, .2);
+  top: 1px;
+  left: 4px;
 }
 
 .project-head img {
@@ -922,9 +922,11 @@ video#bgvid {
     z-index: 1;
   }
 
-  .project-title h2 {
-    font-size: 36px;
-    color: white;
+  .project-title h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
     vertical-align: middle;
   }
 

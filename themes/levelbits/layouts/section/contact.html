@@ -1,22 +1,28 @@
 {{ partial "head.html" . }}
-<div class="container section">
-  <div class="row row-contain contact">
-    <div class="col-xs-12 col-sm-7">
-      <p>At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms. We use the latest technology so that your application works on the newest mobile devices.</p>
-      <div class="row">
+  <div class="container-fluid section">
+    <div class="row row-contain contact">
+      <div class="col-xs-12 col-sm-8">
+        <div class="row row-contain project-list">
         {{ range where .Site.Pages.ByDate "Section" "contact" }}
-        <div class="col-xs-6">
-          {{ .Content }}
-          <a href="{{ .Permalink }}"><button class="btn">View More</button></a>
-        </div>
+          <div class="col-xs-12 project-list-item">
+            <a href="{{ .Permalink }}" class="project-link">
+              <div class="project-head">
+                <img src='{{ .Params.symbol }}'>
+              </div>
+              <div class="project-background" style="background-image: url('{{ .Params.image }}')">
+                <div class="project-title">
+                  <h3>{{ .Title }}</h3>
+                </div>
+              </div>
+            </a>
+          </div>
         {{ end }}
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-{{ partial "footer.html" . }}
-{{ partial "js.html" . }}
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
 </body>
 </html>
