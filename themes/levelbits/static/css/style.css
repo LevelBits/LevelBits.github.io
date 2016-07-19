@@ -939,3 +939,9 @@ video#bgvid {
     padding-top: 19%;
   }
 }
+
+@media (max-width: 730px) {
+  .single-title h1 {
+    font-size: 30px;
+  }
+}
