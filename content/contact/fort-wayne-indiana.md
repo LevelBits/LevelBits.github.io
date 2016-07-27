@@ -4,8 +4,6 @@ title = "Fort Wayne, Indiana"
 map = "/images/fort-wayne-map.png"
 image = "/images/fort-wayne-p1.jpg"
 symbol = "/images/fort-wayne.png"
-header = "/images/fort-wayne-bg.png"
-width = "fort-wayne-img"
 description = "Located in Spiece Fieldhouse, Level Bits, LLC is a proud member of the Fort Wayne community. Here at Level Bits, LLC, Our team members strive to provide the latest in website design, development, and digital marketing solutions to our clients."
 +++
 

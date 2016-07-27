@@ -453,28 +453,14 @@ footer {
 }
 
 .single-title {
-  padding-top: 90px;
-  max-height: 300px;
-  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .single-title h1 {
   margin-bottom: 30px;
   font-size: 48px;
-}
-
-.bg-img {
-  width: 60%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: auto;
-}
-
-.projects-title .bg-img {
-  max-width: 356px;
-  min-height: 524px;
-  background-image: url(/images/projects-bg.png);
 }
 
 .projects-title h1 {
@@ -485,18 +471,6 @@ footer {
 
 .projects-logo {
   padding-bottom: 40px;
-}
-
-.contact-title .bg-img {
-  max-width: 324px;
-  min-height: 205px;
-  background-image: url(/images/contact-bg.png);
-}
-
-.services-title .bg-img {
-  max-width: 614px;
-  min-height: 334px;
-  background-image: url(/images/services-bg.png);
 }
 
 .preview {
@@ -600,87 +574,11 @@ footer {
   border-left-color: #333333 !important;
 }
 
-/* Video */
-
-video#bgvid {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-}
-
-@media (max-width: 450px) {
-  video#bgvid {
-    display: none;
-  }
-}
-
 /* Locations */
 
 .locations {
   background-color: #f7f7f7;
   padding: 80px 0px;
-}
-
-/* Team */
-
-.team-page {
-  margin-bottom: 25px;
-}
-.team-page h1 {
-    font-size: 60px;
-    color: #222222;
-    text-transform: uppercase;
-    font-family: 'Oswald';
-    font-weight: 300;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
-    border-bottom: 1px solid #cecece;
-    margin-top: 180px;
-}
-
-.ind-team {
-  text-align: center;
-}
-
-.ind-team img{
-    display: block;
-    border-radius: 50%;
-    margin: 0 auto;
-    border: 7px solid white;
-    width: 225px;
-    height: 225px;
-}
-
-.ind-team h2 {
-    text-align: center;
-    font-family: "Oswald";
-    font-weight: 400;
-    font-size: 20px
-}
-
-.ind-team h4 {
-    text-align: center;
-    margin-top: -10px;
-    font-family: 'Oswald';
-    font-weight: 100;
-    font-size: 14px;
-}
-
-.ind-team h5 {
-  text-align: center;
-  margin-top: -10px;
-  font-size: 12px;
 }
 
 .icon-social {
@@ -701,34 +599,6 @@ video#bgvid {
   color: white;
   padding: 7px;
 }
-
- /* Individual Team Members */
-
- .personal-pic img {
-   border-radius: 50%;
-   height: 300px;
-   width: 300px;
-   text-align: center;
-   margin-left: 125px;
-   border: 7px solid white;
- }
-
- .personal-title h1 {
-   font-size: 60px;
-   color: #222222;
-   font-family: 'Oswald';
-   font-weight: 300;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 60px;
-   border-bottom: 1px solid #cecece;
-   width: 475px;
-}
-
- .personal-info  {
-   margin-left: 50px
- }
-
 
  /* The Overlay (background) */
 .overlay-mobile {

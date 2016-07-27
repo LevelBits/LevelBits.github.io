@@ -4,8 +4,6 @@ title = "Denver, Colorado"
 map = "/images/denver-map.png"
 image = "/images/denver-p1.jpg"
 symbol =  "/images/denver.png"
-header = "/images/denver-bg.png"
-width = "denver-img"
 description = "Located in the foothills of America, Level Bits, LLC is a proud member of the Denver community. Here at Level Bits, LLC, Our team members strive to provide the latest in website design, development, and digital marketing solutions to our clients."
 +++
 
