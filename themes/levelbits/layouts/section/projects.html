@@ -1,5 +1,6 @@
 {{ partial "head.html" . }}
-  <div class="container-fluid section">
+  {{ partial "header-title.html" . }}
+  <div class="container-fluid section page-body">
     <div class="row row-contain center-xs project-list">
     {{ range where .Site.Pages.ByDate "Section" "projects" }}
       <div class="col-xs-10 col-md-6 project-list-item">

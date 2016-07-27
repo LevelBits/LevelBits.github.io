@@ -1,11 +1,5 @@
 {{ partial "head.html" . }}
-  <header class="container">
-    <div class="row center-xs">
-      <div class="col-md-12">
-        <img src="/images/about.jpg" width="100%" style="max-width: 634px;">
-      </div>
-    </div>
-  </header>
+  {{ partial "header-title.html" . }}
   <div class="container-fluid services-list">
     <div class="row center-xs row-contain">
       {{ range where .Site.Pages.ByDate "Section" "services" }}

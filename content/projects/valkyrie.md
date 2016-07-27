@@ -10,7 +10,7 @@ preview = "/images/valkyrie-preview.jpg"
 **Client**  Valkyrie Racing
 **Services**  Web Design  
 **Year**  2015-2016  
-**Link**  [www.valkyrieracing.com](http://valkyrieracing.com)
+**Link**  [www.racevalkyrie.com](http://racevalkyrie.com)
 
 ***
 

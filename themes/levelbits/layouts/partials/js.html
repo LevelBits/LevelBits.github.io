@@ -68,7 +68,7 @@ $(function() {
     navbar = $('.nav-bar');
     logo = $('.logo');
 
-    if (scrollPos > 10) {
+    if ($(window).width() >= 668 && scrollPos > 10) {
       logo.addClass('alt-logo');
       navbar.addClass('alt-position');
     } else {

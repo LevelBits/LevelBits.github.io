@@ -19,25 +19,24 @@
         {{ .Content }}
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs start-xs">
+    <div class="row row-contain project-buttons">
+      <div class="col-sm col-xs-12 start-xs">
         {{if .NextInSection}}
-        <a href="{{.NextInSection.Permalink}}" class="btn-left" rel="prev">
+        <a href="{{.NextInSection.Permalink}}" class="btn projects-btn" rel="prev">
           <i class="fa fa-arrow-left" aria-hidden="true"></i>
           {{ .NextInSection.Title }}
         </a>
         {{end}}
       </div>
-      <div class="col-xs end-xs">
+      <div class="col-sm col-xs-12 end-xs">
         {{if .PrevInSection}}
-        <a href="{{.PrevInSection.Permalink}}" class="btn-right" rel="next">
+        <a href="{{.PrevInSection.Permalink}}" class="btn projects-btn" rel="next">
           {{ .PrevInSection.Title }}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
         {{end}}
       </div>
     </div>
-
   </div>
 
   {{ partial "footer.html" . }}

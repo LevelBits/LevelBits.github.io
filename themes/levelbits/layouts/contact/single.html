@@ -1,15 +1,7 @@
 {{ partial "head.html" . }}
   <div class="container single-title">
-    <div class="row center-xs row-contain">
-      <div class="col-md-12">
-        <div class="row center-xs">
-          <h1>{{ .Title }}</h1>
-            <div class="contact-image">
-              <img src="{{ .Params.header }}" class="{{ .Params.width }}" />
-            </div>
-        </div>
-      </div>
-    </div>
+    <h1>{{ .Title }}</h1>
+    <img src="{{ .Params.header }}" class="{{ .Params.width }}" />
   </div>
   <div class="container-fluid services-list">
     <div class="row row-contain">
