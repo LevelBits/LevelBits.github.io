@@ -54,6 +54,10 @@
     
     <a id="projects-nav-item-mobile" class="link-section-nav" href="/projects/">Projects</a>
     
+    <a href="http://www.levelbits.com/projects/3b-bags/" class="link-page-nav">3B Bags</a>
+    
+    <a href="http://www.levelbits.com/projects/ascent/" class="link-page-nav">Ascent Waste Consulting</a>
+    
     <a href="http://www.levelbits.com/projects/not-waste/" class="link-page-nav">Not Waste</a>
     
     <a href="http://www.levelbits.com/projects/aoc-financial/" class="link-page-nav">AOC Financial</a>
@@ -99,6 +103,14 @@
     <div class="nav-item">
       <a id="projects-nav-item" href="/projects/">Projects</a>
       <ul>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/3b-bags/">3B Bags</a>
+        </li>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/ascent/">Ascent Waste Consulting</a>
+        </li>
         
         <li>
           <a href="http://www.levelbits.com/projects/not-waste/">Not Waste</a>
@@ -165,7 +177,12 @@
 </div>
 
 
-  <div class="container-fluid section">
+  <div class="container single-title projects-title">
+  <h1>Projects</h1>
+  <div class="bg-img"></div>
+</div>
+
+  <div class="container-fluid section page-body">
     <div class="row row-contain center-xs project-list">
     
       <div class="col-xs-10 col-md-6 project-list-item">
@@ -241,6 +258,32 @@
           <div class="project-background" style="background-image: url('/images/not-waste-p2.png')">
             <div class="project-title">
               <h3>Not Waste</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      <div class="col-xs-10 col-md-6 project-list-item">
+        <a href="http://www.levelbits.com/projects/3b-bags/" class="project-link">
+          <div class="project-head">
+            <img src='/images/3b-logo.png'>
+          </div>
+          <div class="project-background" style="background-image: url('/images/3b-bags-p1.jpg')">
+            <div class="project-title">
+              <h3>3B Bags</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      <div class="col-xs-10 col-md-6 project-list-item">
+        <a href="http://www.levelbits.com/projects/ascent/" class="project-link">
+          <div class="project-head">
+            <img src='/images/ascent-logo.png'>
+          </div>
+          <div class="project-background" style="background-image: url('/images/ascent.jpg')">
+            <div class="project-title">
+              <h3>Ascent Waste Consulting</h3>
             </div>
           </div>
         </a>
@@ -362,7 +405,7 @@ $(function() {
     navbar = $('.nav-bar');
     logo = $('.logo');
 
-    if (scrollPos > 10) {
+    if ($(window).width() >= 668 && scrollPos > 10) {
       logo.addClass('alt-logo');
       navbar.addClass('alt-position');
     } else {

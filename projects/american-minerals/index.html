@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!DOCTYPE html>
 <html lang="en-us" itemscope itemtype="http://schema.org/WebPage">
 <head>
   <meta charset="utf-8">
@@ -57,6 +54,10 @@
     
     <a id="projects-nav-item-mobile" class="link-section-nav" href="/projects/">Projects</a>
     
+    <a href="http://www.levelbits.com/projects/3b-bags/" class="link-page-nav">3B Bags</a>
+    
+    <a href="http://www.levelbits.com/projects/ascent/" class="link-page-nav">Ascent Waste Consulting</a>
+    
     <a href="http://www.levelbits.com/projects/not-waste/" class="link-page-nav">Not Waste</a>
     
     <a href="http://www.levelbits.com/projects/aoc-financial/" class="link-page-nav">AOC Financial</a>
@@ -102,6 +103,14 @@
     <div class="nav-item">
       <a id="projects-nav-item" href="/projects/">Projects</a>
       <ul>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/3b-bags/">3B Bags</a>
+        </li>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/ascent/">Ascent Waste Consulting</a>
+        </li>
         
         <li>
           <a href="http://www.levelbits.com/projects/not-waste/">Not Waste</a>
@@ -168,8 +177,6 @@
 </div>
 
 
-</head>
-<body>
   <div id="myNav" class="overlay-mobile">
 
   <div class="overlay-content">
@@ -177,6 +184,10 @@
     
     <a id="projects-nav-item-mobile" class="link-section-nav" href="/projects/">Projects</a>
     
+    <a href="http://www.levelbits.com/projects/3b-bags/" class="link-page-nav">3B Bags</a>
+    
+    <a href="http://www.levelbits.com/projects/ascent/" class="link-page-nav">Ascent Waste Consulting</a>
+    
     <a href="http://www.levelbits.com/projects/not-waste/" class="link-page-nav">Not Waste</a>
     
     <a href="http://www.levelbits.com/projects/aoc-financial/" class="link-page-nav">AOC Financial</a>
@@ -222,6 +233,14 @@
     <div class="nav-item">
       <a id="projects-nav-item" href="/projects/">Projects</a>
       <ul>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/3b-bags/">3B Bags</a>
+        </li>
+        
+        <li>
+          <a href="http://www.levelbits.com/projects/ascent/">Ascent Waste Consulting</a>
+        </li>
         
         <li>
           <a href="http://www.levelbits.com/projects/not-waste/">Not Waste</a>
@@ -287,18 +306,16 @@
   </div>
 </div>
 
-  <div class="container section">
-    <div class="row row-contain center-xs">
-      <div class="col-md-12">
-        <h1>American Minerals</h1>
-      </div>
-    </div>
+  <div class="container single-title">
+    <h1>American Minerals</h1>
+    <img class="projects-logo" src="/images/american-minerals-logo@2x.png" width="100" height="100" />
+  </div>
+  <div class="container-fluid projects">
     <div class="row row-contain">
-      <div class="col-md-8 col-xs-12 preview">
+      <div class="col-xs-12 col-sm-7 preview">
         <img src="/images/american-minerals-preview.jpg" class="preview-img">
       </div>
       <div class="col-md-4 col-xs-12">
-        <img src="/images/american-minerals-logo@2x.png" width="100" height="100"/>
         <p><strong>Client</strong>  American Minerals<br />
 <strong>Services</strong>  Web Design<br />
 <strong>Year</strong>  2015-2016<br />
@@ -310,25 +327,24 @@
 
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs start-xs">
+    <div class="row row-contain project-buttons">
+      <div class="col-sm col-xs-12 start-xs">
         
-        <a href="http://www.levelbits.com/projects/aoc-financial/" class="btn-left" rel="prev">
+        <a href="http://www.levelbits.com/projects/aoc-financial/" class="btn projects-btn" rel="prev">
           <i class="fa fa-arrow-left" aria-hidden="true"></i>
           AOC Financial
         </a>
         
       </div>
-      <div class="col-xs end-xs">
+      <div class="col-sm col-xs-12 end-xs">
         
-        <a href="http://www.levelbits.com/projects/valkyrie/" class="btn-right" rel="next">
+        <a href="http://www.levelbits.com/projects/valkyrie/" class="btn projects-btn" rel="next">
           Valkyrie Racing
           <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </a>
         
       </div>
     </div>
-
   </div>
 
   <footer class="container-fluid">
@@ -444,7 +460,7 @@ $(function() {
     navbar = $('.nav-bar');
     logo = $('.logo');
 
-    if (scrollPos > 10) {
+    if ($(window).width() >= 668 && scrollPos > 10) {
       logo.addClass('alt-logo');
       navbar.addClass('alt-position');
     } else {
