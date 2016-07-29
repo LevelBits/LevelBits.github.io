@@ -4,7 +4,7 @@
     <div class="row center-xs row-contain">
       {{ range where .Site.Pages.ByDate "Section" "services" }}
       <div class="col-md-4">
-        <img src="{{ .Params.primary }}" width="200px"/>
+        <i class="{{ .Params.icon }}" aria-hidden="true"></i>
         <h2>{{ .Title }}</h2>
         <p>{{ .Params.excerpt }}</p>
         <a href="{{ .Permalink }}"><button class="btn see-more">See More</button></a>

@@ -4,6 +4,7 @@ title = "Digital Marketing"
 primary = "/images/digital-marketing-p1.png"
 secondary = "/images/digital-marketing-p2.png"
 height = "height"
+icon = "fa fa-cube"
 excerpt = "At Level Bits, we review and establish digital marketing strategies aimed to help..."
 +++
 
