@@ -4,7 +4,7 @@ title = "American Minerals"
 logo = "/images/american-minerals-logo@2x.png"
 primary = "/images/american-minerals-p1.png"
 secondary = "/images/american-minerals-p2.png"
-preview = "/images/american-minerals-preview.jpg"
+preview = "/images/american-minerals-preview.png"
 +++
 
 **Client**  American Minerals  

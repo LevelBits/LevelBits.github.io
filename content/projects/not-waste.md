@@ -4,7 +4,7 @@ title = "Not Waste"
 logo = "/images/not-waste-logo@2x.png"
 primary = "/images/not-waste-p1.png"
 secondary = "/images/not-waste-p2.png"
-preview = "/images/not-waste-preview.jpg"
+preview = "/images/not-waste-preview.png"
 +++
 
 **Client**  Materials Lifecycle Management Company®  

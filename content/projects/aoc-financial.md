@@ -4,7 +4,7 @@ title = "AOC Financial"
 logo = "/images/aoc-logo@2x.png"
 primary = "/images/aoc-p1.png"
 secondary = "/images/aoc-p2.png"
-preview = "/images/aoc-preview.jpg"
+preview = "/images/aoc-preview.png"
 +++
 
 **Client**  AOC Financial  

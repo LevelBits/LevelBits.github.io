@@ -4,7 +4,7 @@ title = "La Loma Mexican"
 logo = "/images/la-loma-logo@2x.png"
 primary = "/images/la-loma-p1.png"
 secondary = "/images/la-loma-p2.png"
-preview = "/images/la-loma-preview.jpg"
+preview = "/images/la-loma-preview.png"
 +++
 
 **Client**  La Loma Mexican Kitchen  

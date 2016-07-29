@@ -4,7 +4,6 @@ title = "Design"
 primary = "/images/design-p1.png"
 secondary = "/images/design-p2.png"
 height = "height"
-icon = "fa fa-file-image-o"
 excerpt = "At Level Bits, we have a team of talented designers who work closely with one another to deliver..."
 +++
 

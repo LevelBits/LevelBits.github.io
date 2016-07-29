@@ -4,7 +4,6 @@ title = "Development"
 primary = "/images/development-p1.png"
 secondary = "/images/development-p2.png"
 height = "height"
-icon = "fa fa-code"
 excerpt = "At Level Bits, we develop custom and template-based products for our clients. We have..."
 +++
 
