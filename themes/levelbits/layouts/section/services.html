@@ -3,7 +3,7 @@
   <div class="container-fluid services-list">
     <div class="row center-xs row-contain">
       {{ range where .Site.Pages.ByDate "Section" "services" }}
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <i class="{{ .Params.icon }}" aria-hidden="true"></i>
         <h2>{{ .Title }}</h2>
         <p>{{ .Params.excerpt }}</p>

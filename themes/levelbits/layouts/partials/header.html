@@ -23,13 +23,16 @@
     {{ range .Site.Menus.main }}
     <div class="nav-item">
       <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
+      {{ $sections := (where $pages "Section" .Identifier) }}
+      {{ if ge (len $sections) 1 }}
       <ul>
-        {{ range where $pages "Section" .Identifier }}
+        {{ range $sections }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         {{ end }}
       </ul>
+      {{ end }}
     </div>
     {{ end }}
   </div>

@@ -1,0 +1,25 @@
+{{ partial "head.html" . }}
+  {{ partial "header-title.html" . }}
+  <div class="container-fluid section page-body">
+    <div class="row row-contain project-list">
+    {{ range where .Site.Pages.ByDate "Section" "locations" }}
+      <div class="col-xs-12 col-sm-6 project-list-item">
+        <a href="{{ .Permalink }}" class="project-link">
+          <div class="project-head">
+            <img src='{{ .Params.symbol }}'>
+          </div>
+          <div class="project-background" style="background-image: url('{{ .Params.image }}')">
+            <div class="project-title">
+              <h3>{{ .Title }}</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+
+  {{ partial "footer.html" . }}
+  {{ partial "js.html" . }}
+</body>
+</html>

@@ -27,8 +27,13 @@ GoogleTagIdentifier = "GTM-NNDHJW"
     weight = 2
     identifier = "services"
   [[menu.main]]
+    name = "Locations"
+    url = "/locations/"
+    weight = 3
+    identifier = "locations"
+  [[menu.main]]
     name = "Contact"
-    url = "/contact/"
+    url = "/"
     weight = 4
     identifier = "contact"
 

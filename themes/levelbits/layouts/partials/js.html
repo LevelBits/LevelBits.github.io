@@ -53,13 +53,14 @@ var smoochLoaded = Smooch.init({
 
 smoochLoaded.then(function() {
   $(function() {
-    if(window.location.href.indexOf("contact") > -1) {
+    $('#contact-nav-item, #contact-nav-item-mobile').click(function(event) {
+      event.preventDefault();
+      closeNav();
       Smooch.open();
-    }
+    });
   })
 })
 </script>
-
 
 <script>
 $(function() {
