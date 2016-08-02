@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Hugo 0.15" />
+  <meta name="generator" content="Hugo 0.16" />
 
   
   <title>Level Bits | Services</title>
@@ -80,11 +80,14 @@
     <a href="http://www.levelbits.com/services/digital-marketing/" class="link-page-nav">Digital Marketing</a>
     
     
-    <a id="contact-nav-item-mobile" class="link-section-nav" href="/contact/">Contact</a>
+    <a id="locations-nav-item-mobile" class="link-section-nav" href="/locations/">Locations</a>
     
-    <a href="http://www.levelbits.com/contact/denver-colorado/" class="link-page-nav">Denver, Colorado</a>
+    <a href="http://www.levelbits.com/locations/denver-colorado/" class="link-page-nav">Denver, Colorado</a>
     
-    <a href="http://www.levelbits.com/contact/fort-wayne-indiana/" class="link-page-nav">Fort Wayne, Indiana</a>
+    <a href="http://www.levelbits.com/locations/fort-wayne-indiana/" class="link-page-nav">Fort Wayne, Indiana</a>
+    
+    
+    <a id="contact-nav-item-mobile" class="link-section-nav" href="/">Contact</a>
     
     
   </div>
@@ -102,6 +105,8 @@
     
     <div class="nav-item">
       <a id="projects-nav-item" href="/projects/">Projects</a>
+      
+      
       <ul>
         
         <li>
@@ -137,10 +142,13 @@
         </li>
         
       </ul>
+      
     </div>
     
     <div class="nav-item">
       <a id="services-nav-item" href="/services/">Services</a>
+      
+      
       <ul>
         
         <li>
@@ -156,21 +164,31 @@
         </li>
         
       </ul>
+      
     </div>
     
     <div class="nav-item">
-      <a id="contact-nav-item" href="/contact/">Contact</a>
+      <a id="locations-nav-item" href="/locations/">Locations</a>
+      
+      
       <ul>
         
         <li>
-          <a href="http://www.levelbits.com/contact/denver-colorado/">Denver, Colorado</a>
+          <a href="http://www.levelbits.com/locations/denver-colorado/">Denver, Colorado</a>
         </li>
         
         <li>
-          <a href="http://www.levelbits.com/contact/fort-wayne-indiana/">Fort Wayne, Indiana</a>
+          <a href="http://www.levelbits.com/locations/fort-wayne-indiana/">Fort Wayne, Indiana</a>
         </li>
         
       </ul>
+      
+    </div>
+    
+    <div class="nav-item">
+      <a id="contact-nav-item" href="/">Contact</a>
+      
+      
     </div>
     
   </div>
@@ -184,22 +202,22 @@
   <div class="container-fluid services-list">
     <div class="row center-xs row-contain">
       
-      <div class="col-md-4">
-        <img src="/images/design-p1.png" width="200px"/>
+      <div class="col-sm-4">
+        <i class="fa fa-file-image-o" aria-hidden="true"></i>
         <h2>Design</h2>
         <p>At Level Bits, we have a team of talented designers who work closely with one another to deliver...</p>
         <a href="http://www.levelbits.com/services/design/"><button class="btn see-more">See More</button></a>
       </div>
       
-      <div class="col-md-4">
-        <img src="/images/development-p1.png" width="200px"/>
+      <div class="col-sm-4">
+        <i class="fa fa-code" aria-hidden="true"></i>
         <h2>Development</h2>
         <p>At Level Bits, we develop custom and template-based products for our clients. We have...</p>
         <a href="http://www.levelbits.com/services/development/"><button class="btn see-more">See More</button></a>
       </div>
       
-      <div class="col-md-4">
-        <img src="/images/digital-marketing-p1.png" width="200px"/>
+      <div class="col-sm-4">
+        <i class="fa fa-cube" aria-hidden="true"></i>
         <h2>Digital Marketing</h2>
         <p>At Level Bits, we review and establish digital marketing strategies aimed to help...</p>
         <a href="http://www.levelbits.com/services/digital-marketing/"><button class="btn see-more">See More</button></a>
@@ -354,13 +372,14 @@ var smoochLoaded = Smooch.init({
 
 smoochLoaded.then(function() {
   $(function() {
-    if(window.location.href.indexOf("contact") > -1) {
+    $('#contact-nav-item, #contact-nav-item-mobile').click(function(event) {
+      event.preventDefault();
+      closeNav();
       Smooch.open();
-    }
+    });
   })
 })
 </script>
-
 
 <script>
 $(function() {

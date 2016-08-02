@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Hugo 0.15" />
+  <meta name="generator" content="Hugo 0.16" />
 
   
-  <title>Level Bits | Contact</title>
+  <title>Level Bits | Locations</title>
   
   <meta name="description" content="At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms.">
   <meta name="author" content="Level Bits, LLC">
@@ -80,11 +80,14 @@
     <a href="http://www.levelbits.com/services/digital-marketing/" class="link-page-nav">Digital Marketing</a>
     
     
-    <a id="contact-nav-item-mobile" class="link-section-nav" href="/contact/">Contact</a>
+    <a id="locations-nav-item-mobile" class="link-section-nav" href="/locations/">Locations</a>
     
-    <a href="http://www.levelbits.com/contact/denver-colorado/" class="link-page-nav">Denver, Colorado</a>
+    <a href="http://www.levelbits.com/locations/denver-colorado/" class="link-page-nav">Denver, Colorado</a>
     
-    <a href="http://www.levelbits.com/contact/fort-wayne-indiana/" class="link-page-nav">Fort Wayne, Indiana</a>
+    <a href="http://www.levelbits.com/locations/fort-wayne-indiana/" class="link-page-nav">Fort Wayne, Indiana</a>
+    
+    
+    <a id="contact-nav-item-mobile" class="link-section-nav" href="/">Contact</a>
     
     
   </div>
@@ -102,6 +105,8 @@
     
     <div class="nav-item">
       <a id="projects-nav-item" href="/projects/">Projects</a>
+      
+      
       <ul>
         
         <li>
@@ -137,10 +142,13 @@
         </li>
         
       </ul>
+      
     </div>
     
     <div class="nav-item">
       <a id="services-nav-item" href="/services/">Services</a>
+      
+      
       <ul>
         
         <li>
@@ -156,64 +164,70 @@
         </li>
         
       </ul>
+      
     </div>
     
     <div class="nav-item">
-      <a id="contact-nav-item" href="/contact/">Contact</a>
+      <a id="locations-nav-item" href="/locations/">Locations</a>
+      
+      
       <ul>
         
         <li>
-          <a href="http://www.levelbits.com/contact/denver-colorado/">Denver, Colorado</a>
+          <a href="http://www.levelbits.com/locations/denver-colorado/">Denver, Colorado</a>
         </li>
         
         <li>
-          <a href="http://www.levelbits.com/contact/fort-wayne-indiana/">Fort Wayne, Indiana</a>
+          <a href="http://www.levelbits.com/locations/fort-wayne-indiana/">Fort Wayne, Indiana</a>
         </li>
         
       </ul>
+      
+    </div>
+    
+    <div class="nav-item">
+      <a id="contact-nav-item" href="/">Contact</a>
+      
+      
     </div>
     
   </div>
 </div>
 
 
-  <div class="container single-title contact-title">
-  <h1>Contact</h1>
+  <div class="container single-title locations-title">
+  <h1>Locations</h1>
 </div>
 
   <div class="container-fluid section page-body">
-    <div class="row row-contain contact">
-      <div class="col-xs-12 col-sm-8">
-        <div class="row row-contain project-list">
-        
-          <div class="col-xs-12 project-list-item">
-            <a href="http://www.levelbits.com/contact/denver-colorado/" class="project-link">
-              <div class="project-head">
-                <img src='/images/denver.png'>
-              </div>
-              <div class="project-background" style="background-image: url('/images/denver-p1.jpg')">
-                <div class="project-title">
-                  <h3>Denver, Colorado</h3>
-                </div>
-              </div>
-            </a>
+    <div class="row row-contain project-list">
+    
+      <div class="col-xs-12 col-sm-6 project-list-item">
+        <a href="http://www.levelbits.com/locations/denver-colorado/" class="project-link">
+          <div class="project-head">
+            <img src='/images/denver.png'>
           </div>
-        
-          <div class="col-xs-12 project-list-item">
-            <a href="http://www.levelbits.com/contact/fort-wayne-indiana/" class="project-link">
-              <div class="project-head">
-                <img src='/images/fort-wayne.png'>
-              </div>
-              <div class="project-background" style="background-image: url('/images/fort-wayne-p1.jpg')">
-                <div class="project-title">
-                  <h3>Fort Wayne, Indiana</h3>
-                </div>
-              </div>
-            </a>
+          <div class="project-background" style="background-image: url('/images/denver-p1.jpg')">
+            <div class="project-title">
+              <h3>Denver, Colorado</h3>
+            </div>
           </div>
-        
-        </div>
+        </a>
       </div>
+    
+      <div class="col-xs-12 col-sm-6 project-list-item">
+        <a href="http://www.levelbits.com/locations/fort-wayne-indiana/" class="project-link">
+          <div class="project-head">
+            <img src='/images/fort-wayne.png'>
+          </div>
+          <div class="project-background" style="background-image: url('/images/fort-wayne-p1.jpg')">
+            <div class="project-title">
+              <h3>Fort Wayne, Indiana</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    
     </div>
   </div>
 
@@ -315,13 +329,14 @@ var smoochLoaded = Smooch.init({
 
 smoochLoaded.then(function() {
   $(function() {
-    if(window.location.href.indexOf("contact") > -1) {
+    $('#contact-nav-item, #contact-nav-item-mobile').click(function(event) {
+      event.preventDefault();
+      closeNav();
       Smooch.open();
-    }
+    });
   })
 })
 </script>
-
 
 <script>
 $(function() {
