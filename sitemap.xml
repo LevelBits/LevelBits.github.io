@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
+
+  
+  <url>
+    <loc>http://www.levelbits.com/tags/custom-wordpress</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/tags/software</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/tags/woocommerce</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/tags/wordpress</loc>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://www.levelbits.com/categories/design</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/categories/development</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/categories/web</loc>
+  </url>
+  
+
   
   <url>
     <loc>http://www.levelbits.com/locations/</loc>
@@ -10,13 +43,18 @@
   <url>
     <loc>http://www.levelbits.com/locations/denver-colorado/</loc>
     <lastmod>2016-05-23T15:14:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/locations/fort-wayne-indiana/</loc>
     <lastmod>2016-05-23T15:14:04-04:00</lastmod>
+    
+    
   </url>
   
+
   
   <url>
     <loc>http://www.levelbits.com/projects/</loc>
@@ -26,43 +64,60 @@
   <url>
     <loc>http://www.levelbits.com/projects/3b-bags/</loc>
     <lastmod>2016-07-24T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/ascent/</loc>
     <lastmod>2016-07-24T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/not-waste/</loc>
     <lastmod>2016-05-12T15:18:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/aoc-financial/</loc>
     <lastmod>2016-05-12T15:17:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/american-minerals/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/valkyrie/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/pestle/</loc>
     <lastmod>2016-05-12T15:15:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/projects/la-loma/</loc>
     <lastmod>2016-05-12T15:14:04-04:00</lastmod>
+    
+    
   </url>
   
+
   
   <url>
     <loc>http://www.levelbits.com/services/</loc>
@@ -72,17 +127,24 @@
   <url>
     <loc>http://www.levelbits.com/services/design/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/services/development/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
   <url>
     <loc>http://www.levelbits.com/services/digital-marketing/</loc>
     <lastmod>2016-05-12T15:16:04-04:00</lastmod>
+    
+    
   </url>
   
+
   
 </urlset>
