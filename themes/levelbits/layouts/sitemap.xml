@@ -1,17 +1,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ $baseUrl := .Site.BaseURL }}
+
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+  <url>
+    <loc>{{ "/tags/" | absURL }}{{ $name | urlize }}</loc>
+  </url>
+  {{ end }}
+
+  {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+  <url>
+    <loc>{{ "/categories/" | absURL }}{{ $name | urlize }}</loc>
+  </url>
+  {{ end }}
+
   {{ range .Site.Pages.GroupBy "Section"  }}
   <url>
-    <loc>{{ $baseUrl }}{{ .Key | urlize }}/</loc>
+    <loc>{{ .Key | urlize | absURL }}/</loc>
   </url>
 
   {{ range .Pages }}
   <url>
     <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ safeHTML ( .Date.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ with .Sitemap.ChangeFreq }}
-    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
-    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+    <lastmod>{{ safeHTML ( .Date.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>
+    {{ with .Sitemap.ChangeFreq }}<changefreq>{{ . }}</changefreq>{{ end }}
+    {{ if ge .Sitemap.Priority 0.0 }}<priority>{{ .Sitemap.Priority }}</priority>{{ end }}
   </url>
   {{ end }}
+
   {{ end }}
 </urlset>
