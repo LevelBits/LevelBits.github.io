@@ -9,10 +9,10 @@ secondary = "/images/valkyrie-p2.png"
 preview = "/images/valkyrie-preview.png"
 +++
 
-**Client**  Valkyrie Racing
-**Services**  Web Design  
-**Year**  2015-2016  
-**Link**  [www.racevalkyrie.com](http://racevalkyrie.com)
+**Client:**  Valkyrie Racing
+**Services:**  Web Design  
+**Year:**  2015-2016  
+**Link:**  [www.racevalkyrie.com](http://racevalkyrie.com)
 
 ***
 

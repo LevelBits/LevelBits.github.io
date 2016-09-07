@@ -8,10 +8,10 @@ secondary = "/images/ascent.jpg"
 preview = "/images/ascent-preview.png"
 +++
 
-**Client**  Ascent Waste Consulting  
-**Services**  Web Design  
-**Year**  2015  
-**Link**  [www.ascentwasteconsulting.com](http://ascentwasteconsulting.com)
+**Client:**  Ascent Waste Consulting  
+**Services:**  Web Design  
+**Year:**  2015  
+**Link:**  [www.ascentwasteconsulting.com](http://ascentwasteconsulting.com)
 
 ***
 

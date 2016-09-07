@@ -8,10 +8,10 @@ secondary = "/images/3b-bags-p1.jpg"
 preview = "/images/3b-bags-preview.png"
 +++
 
-**Client**  3B Bags  
-**Services**  Web Design  
-**Year**  2016  
-**Link**  [www.3bbags.com](http://3bbags.com)
+**Client:**  3B Bags  
+**Services:**  Web Design  
+**Year:**  2016  
+**Link:**  [www.3bbags.com](http://3bbags.com)
 
 ***
 

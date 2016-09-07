@@ -9,10 +9,10 @@ secondary = "/images/pestle-p2.png"
 preview = "/images/pestle-preview.png"
 +++
 
-**Client**  Pestle | Pharmacy Compliance System  
-**Services**  Software Development  
-**Year**  2015-2016  
-**Link**  [www.rxpestle.com](http://rxpestle.com)
+**Client:**  Pestle | Pharmacy Compliance System  
+**Services:**  Software Development  
+**Year:**  2015-2016  
+**Link:**  [www.rxpestle.com](http://rxpestle.com)
 
 ***
 

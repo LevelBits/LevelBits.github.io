@@ -9,10 +9,10 @@ secondary = "/images/la-loma-p2.png"
 preview = "/images/la-loma-preview.png"
 +++
 
-**Client**  La Loma Mexican Kitchen  
-**Services**  Web Design  
-**Year** 2015-2016  
-**Link**  [www.lalomamexican.com](http://lalomamexican.com)
+**Client:**  La Loma Mexican Kitchen  
+**Services:**  Web Design  
+**Year:** 2015-2016  
+**Link:**  [www.lalomamexican.com](http://lalomamexican.com)
 
 ***
 

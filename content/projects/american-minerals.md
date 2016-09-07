@@ -9,10 +9,10 @@ secondary = "/images/american-minerals-p2.png"
 preview = "/images/american-minerals-preview.png"
 +++
 
-**Client**  American Minerals  
-**Services**  Web Design  
-**Year**  2015-2016  
-**Link**  [www.americanminerals.com](http://americanminerals.com)
+**Client:**  American Minerals  
+**Services:**  Web Design  
+**Year:**  2015-2016  
+**Link:**  [www.americanminerals.com](http://americanminerals.com)
 
 ***
 

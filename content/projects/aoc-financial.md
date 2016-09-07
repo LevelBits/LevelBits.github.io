@@ -9,9 +9,9 @@ secondary = "/images/aoc-p2.png"
 preview = "/images/aoc-preview.png"
 +++
 
-**Client**  AOC Financial  
-**Services**  Web Design  
-**Year**  2015-2016
+**Client:**  AOC Financial  
+**Services:**  Web Design  
+**Year:**  2015-2016
 
 ***
 

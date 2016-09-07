@@ -9,10 +9,10 @@ secondary = "/images/not-waste-p2.png"
 preview = "/images/not-waste-preview.png"
 +++
 
-**Client**  Materials Lifecycle Management Company®  
-**Services**  Web Design  
-**Year**  2015-2016  
-**Link**  [www.notwaste.com](http://notwaste.com)
+**Client:**  Materials Lifecycle Management Company®  
+**Services:**  Web Design  
+**Year:**  2015-2016  
+**Link:**  [www.notwaste.com](http://notwaste.com)
 
 ***
 
