@@ -12,6 +12,10 @@
   </url>
   
   <url>
+    <loc>http://www.levelbits.com/tags/static</loc>
+  </url>
+  
+  <url>
     <loc>http://www.levelbits.com/tags/woocommerce</loc>
   </url>
   
@@ -105,6 +109,13 @@
   
   <url>
     <loc>http://www.levelbits.com/projects/pestle/</loc>
+    <lastmod>2016-05-12T15:15:04-04:00</lastmod>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://www.levelbits.com/projects/schmucker-homes/</loc>
     <lastmod>2016-05-12T15:15:04-04:00</lastmod>
     
     
