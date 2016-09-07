@@ -1,5 +1,5 @@
 +++
-date = "2016-05-12T15:15:04-04:00"
+date = "2016-09-12T15:15:04-04:00"
 title = "Schmucker Homes"
 categories = ["Web", "Development", "Design"]
 tags = ["Static"]
