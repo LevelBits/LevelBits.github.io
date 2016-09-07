@@ -27,7 +27,7 @@
   <div class="container-fluid logos">
     <div class="row center-xs row-contain">
       {{ range where .Site.Pages.ByDate "Section" "projects" }}
-      <div class="col-xs">
+      <div class="col-xs-3 companies">
         <img src="{{ .Params.logo }}" width="100px">
       </div>
       {{ end }}

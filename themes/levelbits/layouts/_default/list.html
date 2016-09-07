@@ -1,7 +1,12 @@
 {{ partial "head.html" . }}
+<div class="container list">
+  <div class="row-contain center-xs">
+    <div class="col-xs-12 projects-title">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </div>
   {{ range first 10 .Data.Pages }}
-  <div class="container section">
-  <div class="row-contain" style="margin-bottom: 0px;">
+  <div class="row-contain">
     <h3>{{ .Title }}</h3>
     <p>{{ .Summary }}</p>
     <a href="{{ .Permalink }}"><button class="btn">View More</button></a>

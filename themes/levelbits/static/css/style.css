@@ -432,8 +432,12 @@ footer {
   line-height: 28px;
 }
 
+.companies {
+  padding: 20px 0;
+}
+
 .logos {
-  padding: 80px 0px;
+  padding: 80px 0;
 }
 
 @media (max-width: 948px) {
@@ -529,6 +533,10 @@ footer {
 .projects {
   background-color: #ffffff;
   padding: 60px;
+}
+
+.projects a {
+  color: #555555;
 }
 
 .project-buttons {
@@ -838,4 +846,34 @@ footer {
 
 .page-body {
   background-color: white;
+}
+
+/* Tags */
+
+.list {
+  margin: 140px auto 60px;
+}
+
+.tags ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tags li {
+  margin: 10px 0;
+}
+
+.tags li a {
+  color: #f7f7f7;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #F64641;
+  padding: 3px 10px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.tags li a:hover {
+  opacity: 0.8;
+  transition: 0.5s;
 }

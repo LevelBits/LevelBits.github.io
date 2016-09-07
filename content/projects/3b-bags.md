@@ -1,6 +1,8 @@
 +++
 date = "2016-07-24T15:16:04-04:00"
 title = "3B Bags"
+categories = ["Web", "Development", "Design"]
+tags = ["Custom Wordpress", "WooCommerce"]
 logo = "/images/3b-logo.png"
 secondary = "/images/3b-bags-p1.jpg"
 preview = "/images/3b-bags-preview.png"
@@ -13,4 +15,4 @@ preview = "/images/3b-bags-preview.png"
 
 ***
 
-3B Bags is a woman owned company that successfully designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.
+3B Bags designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.

@@ -1,6 +1,8 @@
 +++
 date = "2016-05-12T15:17:04-04:00"
 title = "AOC Financial"
+categories = ["Web", "Development"]
+tags = ["Wordpress"]
 logo = "/images/aoc-logo@2x.png"
 primary = "/images/aoc-p1.png"
 secondary = "/images/aoc-p2.png"

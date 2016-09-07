@@ -11,10 +11,27 @@
       </div>
       <div class="col-md-4 col-xs-12">
         {{ .Content }}
+        <p>Categories</p>
+        <div class="tags">
+          <ul>
+            {{ range .Params.categories }}
+            <li><a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> </li>
+            {{ end }}
+          </ul>
+        </div>
+        <p>Tags</p>
+        <div class="tags">
+          <ul>
+            {{ range .Params.tags }}
+            <li><a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a> </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
     {{ partial "buttons.html" . }}
   </div>
+
 
   {{ partial "footer.html" . }}
   {{ partial "js.html" . }}

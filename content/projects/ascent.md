@@ -1,6 +1,8 @@
 +++
 date = "2016-07-24T15:16:04-04:00"
 title = "Ascent Waste Consulting"
+categories = ["Web", "Development", "Design"]
+tags = ["Custom Wordpress"]
 logo = "/images/ascent-logo.png"
 secondary = "/images/ascent.jpg"
 preview = "/images/ascent-preview.png"

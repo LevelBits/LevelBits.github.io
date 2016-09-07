@@ -1,6 +1,8 @@
 +++
 date = "2016-05-12T15:16:04-04:00"
 title = "American Minerals"
+categories = ["Web", "Development", "Design"]
+tags = ["Custom Wordpress"]
 logo = "/images/american-minerals-logo@2x.png"
 primary = "/images/american-minerals-p1.png"
 secondary = "/images/american-minerals-p2.png"

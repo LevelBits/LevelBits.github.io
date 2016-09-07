@@ -1,6 +1,8 @@
 +++
 date = "2016-05-12T15:14:04-04:00"
 title = "La Loma Mexican"
+categories = ["Web", "Development", "Design"]
+tags = ["Custom Wordpress"]
 logo = "/images/la-loma-logo@2x.png"
 primary = "/images/la-loma-p1.png"
 secondary = "/images/la-loma-p2.png"

@@ -1,6 +1,8 @@
 +++
 date = "2016-05-12T15:15:04-04:00"
 title = "Pestle"
+categories = ["Web", "Development"]
+tags = ["Software"]
 logo = "/images/pestle-logo@2x.png"
 primary = "/images/pestle-p1.png"
 secondary = "/images/pestle-p2.png"

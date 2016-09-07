@@ -1,6 +1,8 @@
 +++
 date = "2016-05-12T15:18:04-04:00"
 title = "Not Waste"
+categories = ["Web", "Development", "Design"]
+tags = ["Wordpress"]
 logo = "/images/not-waste-logo@2x.png"
 primary = "/images/not-waste-p1.png"
 secondary = "/images/not-waste-p2.png"
