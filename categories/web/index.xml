@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Level Bits</title>
-    <link>http://www.levelbits.com/</link>
-    <description>Recent content on Level Bits</description>
+    <title>Web on Level Bits</title>
+    <link>http://www.levelbits.com/categories/web/</link>
+    <description>Recent content in Web on Level Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jul 2016 15:16:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.levelbits.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>3B Bags</title>
@@ -40,38 +40,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;We are a Colorado based company that understands the current market. Our services are focused on saving clients time and money in regards to their waste and recycling service. We take pride in adding to other companies’ success! Ascent follows a gainsharing business model. If we do not generate 10% growth savings, the customer does not pay anything. If we don’t produce, we should not be paid. We are confident in our capabilities. With multiple years in the industry, we have the capabilities to improve any waste and recycling system. These improvements do not compromise service or service levels. Our main focus is reducing costs and increasing efficiency.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Denver, Colorado</title>
-      <link>http://www.levelbits.com/locations/denver-colorado/</link>
-      <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/locations/denver-colorado/</guid>
-      <description>
-
-&lt;h3 id=&#34;contact-us:54345ccfaa6d4e7dbf6503b47bd29eef&#34;&gt;Contact Us&lt;/h3&gt;
-
-&lt;p&gt;Denver, Colorado 80211&lt;br&gt;
-United States of America&lt;br&gt;
-Phone: 720.443.4017&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fort Wayne, Indiana</title>
-      <link>http://www.levelbits.com/locations/fort-wayne-indiana/</link>
-      <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/locations/fort-wayne-indiana/</guid>
-      <description>
-
-&lt;h3 id=&#34;contact-us:cf7134bb4852244155fc006f9661efdb&#34;&gt;Contact Us&lt;/h3&gt;
-
-&lt;p&gt;5310 Merchandise Dr.&lt;br&gt;
-Fort Wayne, Indiana 46825&lt;br&gt;
-United States of America&lt;br&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -122,36 +90,6 @@ United States of America&lt;br&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;American Minerals is the leading mineral and royalty company with a presence nationwide. Guided by our philosophy to provide superior quality and customer focused service, we are the premier company in all major oil and gas markets including CO, WY, ND, PA, WV, OH, OK, and TX. Through our core values of leadership, value creation, excellence, and respect we operate responsibly with regard to our communities, employees and customers. For us, being an enterprising family is the fabric of life and helping other American families is at the heart of everything we do.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>http://www.levelbits.com/services/design/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/design/</guid>
-      <description>&lt;p&gt;At Level Bits, we have a team of talented designers who work closely with one another to deliver a fully polished, organized product to our clients. Our designers pay meticulous attention to details ensuring the end product has a sleek design exceeding usability expectations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>http://www.levelbits.com/services/development/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/development/</guid>
-      <description>&lt;p&gt;At Level Bits, we develop custom and template-based products for our clients. We have a team of dedicated developers who work with our clients to better understand their exact needs. We can ensure you&amp;rsquo;ll be getting a fully functional product extensively tested and reviewed before delivery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Digital Marketing</title>
-      <link>http://www.levelbits.com/services/digital-marketing/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/digital-marketing/</guid>
-      <description>&lt;p&gt;At Level Bits, we review and establish digital marketing strategies aimed to help our clients reach customers online. Our goal for SEO (Search Engine Optimization) is to bring your site higher up in organic search results, driving more customers through your website and into your business.&lt;/p&gt;
 </description>
     </item>
     

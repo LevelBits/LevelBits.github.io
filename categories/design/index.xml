@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Level Bits</title>
-    <link>http://www.levelbits.com/</link>
-    <description>Recent content on Level Bits</description>
+    <title>Design on Level Bits</title>
+    <link>http://www.levelbits.com/categories/design/</link>
+    <description>Recent content in Design on Level Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jul 2016 15:16:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.levelbits.com/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>3B Bags</title>
@@ -44,38 +44,6 @@
     </item>
     
     <item>
-      <title>Denver, Colorado</title>
-      <link>http://www.levelbits.com/locations/denver-colorado/</link>
-      <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/locations/denver-colorado/</guid>
-      <description>
-
-&lt;h3 id=&#34;contact-us:54345ccfaa6d4e7dbf6503b47bd29eef&#34;&gt;Contact Us&lt;/h3&gt;
-
-&lt;p&gt;Denver, Colorado 80211&lt;br&gt;
-United States of America&lt;br&gt;
-Phone: 720.443.4017&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fort Wayne, Indiana</title>
-      <link>http://www.levelbits.com/locations/fort-wayne-indiana/</link>
-      <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/locations/fort-wayne-indiana/</guid>
-      <description>
-
-&lt;h3 id=&#34;contact-us:cf7134bb4852244155fc006f9661efdb&#34;&gt;Contact Us&lt;/h3&gt;
-
-&lt;p&gt;5310 Merchandise Dr.&lt;br&gt;
-Fort Wayne, Indiana 46825&lt;br&gt;
-United States of America&lt;br&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Not Waste</title>
       <link>http://www.levelbits.com/projects/not-waste/</link>
       <pubDate>Thu, 12 May 2016 15:18:04 -0400</pubDate>
@@ -89,22 +57,6 @@ United States of America&lt;br&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;MLMC is a rapidly expanding materials management company, with patented and proprietary materials optimization and alternative fuels technology. Our solution for traditionally landfilled or incinerated waste is disruptive to the waste management industry.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AOC Financial</title>
-      <link>http://www.levelbits.com/projects/aoc-financial/</link>
-      <pubDate>Thu, 12 May 2016 15:17:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/projects/aoc-financial/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client&lt;/strong&gt;  AOC Financial&lt;br /&gt;
-&lt;strong&gt;Services&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year&lt;/strong&gt;  2015-2016&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Our goal is to help clients achieve financial success. We have found that as people work toward being financially successful things become more complex, and the need for financial advice is a key to achieving success. We work with other financial professionals using a team approach to help our clients stay on track.&lt;/p&gt;
 </description>
     </item>
     
@@ -126,36 +78,6 @@ United States of America&lt;br&gt;&lt;/p&gt;
     </item>
     
     <item>
-      <title>Design</title>
-      <link>http://www.levelbits.com/services/design/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/design/</guid>
-      <description>&lt;p&gt;At Level Bits, we have a team of talented designers who work closely with one another to deliver a fully polished, organized product to our clients. Our designers pay meticulous attention to details ensuring the end product has a sleek design exceeding usability expectations.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>http://www.levelbits.com/services/development/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/development/</guid>
-      <description>&lt;p&gt;At Level Bits, we develop custom and template-based products for our clients. We have a team of dedicated developers who work with our clients to better understand their exact needs. We can ensure you&amp;rsquo;ll be getting a fully functional product extensively tested and reviewed before delivery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Digital Marketing</title>
-      <link>http://www.levelbits.com/services/digital-marketing/</link>
-      <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/services/digital-marketing/</guid>
-      <description>&lt;p&gt;At Level Bits, we review and establish digital marketing strategies aimed to help our clients reach customers online. Our goal for SEO (Search Engine Optimization) is to bring your site higher up in organic search results, driving more customers through your website and into your business.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Valkyrie Racing</title>
       <link>http://www.levelbits.com/projects/valkyrie/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
@@ -169,23 +91,6 @@ United States of America&lt;br&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;Renée Brinkerhoff is an American auto-racing driver currently competing in the Mexican open road race, La Carrera Panamericana (LCP) and vintage races. Her racing experience began two years ago in the 2013 La Carrera Panamericana. And what a debut! Renee finished the race first in her class, becoming the only woman to ever do so in a La Carrera Panamericana debut. She is currently peparing for the 2016 rally with an eye on another first-in-class showing and an overall top-ten finish.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pestle</title>
-      <link>http://www.levelbits.com/projects/pestle/</link>
-      <pubDate>Thu, 12 May 2016 15:15:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/projects/pestle/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client&lt;/strong&gt;  Pestle | Pharmacy Compliance System&lt;br /&gt;
-&lt;strong&gt;Services&lt;/strong&gt;  Software Development&lt;br /&gt;
-&lt;strong&gt;Year&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link&lt;/strong&gt;  &lt;a href=&#34;http://rxpestle.com&#34;&gt;www.rxpestle.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Pestle™ provides an easy to use web-based system designed to keep pharmacies aligned with the USP quality standards. The software integrates accreditation tested standard operating procedures and associated documentation, compliance management, task organization and a depot for historical data storage for large or small compounding pharmacy practices.&lt;/p&gt;
 </description>
     </item>
     
