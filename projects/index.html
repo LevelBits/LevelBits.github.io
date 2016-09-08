@@ -317,7 +317,7 @@
           <div class="project-head">
             <img src='/images/schmucker-logo.png'>
           </div>
-          <div class="project-background" style="background-image: url('')">
+          <div class="project-background" style="background-image: url('/images/schmucker-p2.png')">
             <div class="project-title">
               <h3>Schmucker Homes</h3>
             </div>
@@ -460,7 +460,7 @@ $(function() {
 });
 </script>
 <script>
-window.onload = function() {
+$(window).bind("load", function() {
   var grid = document.getElementsByClassName("grid");
   if (!grid || grid.length <= 0) return;
 
@@ -469,7 +469,7 @@ window.onload = function() {
     columnWidth: '.grid-sizer',
     percentPosition: true
   });
-}
+});
 </script>
 
 </body>

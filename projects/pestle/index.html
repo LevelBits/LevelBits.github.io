@@ -543,7 +543,7 @@ $(function() {
 });
 </script>
 <script>
-window.onload = function() {
+$(window).bind("load", function() {
   var grid = document.getElementsByClassName("grid");
   if (!grid || grid.length <= 0) return;
 
@@ -552,7 +552,7 @@ window.onload = function() {
     columnWidth: '.grid-sizer',
     percentPosition: true
   });
-}
+});
 </script>
 
 </body>
