@@ -4,6 +4,7 @@ title = "Schmucker Homes"
 categories = ["Web", "Development", "Design"]
 tags = ["Static"]
 logo = "/images/schmucker-logo.png"
+secondary = "/images/schmucker-p2.png"
 preview = "/images/schmucker-preview.png"
 +++
 
