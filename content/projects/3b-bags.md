@@ -4,7 +4,8 @@ title = "3B Bags"
 categories = ["Web", "Development", "Design"]
 tags = ["Custom Wordpress", "WooCommerce"]
 logo = "/images/3b-logo.png"
-secondary = "/images/3b-bags-p1.jpg"
+primary = "/images/3b-bags-p1.png"
+secondary = "/images/3b-bags-p2.jpg"
 preview = "/images/3b-bags-preview.png"
 +++
 
