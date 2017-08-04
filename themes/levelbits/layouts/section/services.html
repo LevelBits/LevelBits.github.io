@@ -2,7 +2,7 @@
   {{ partial "header-title.html" . }}
   <div class="container-fluid services-list">
     <div class="row center-xs row-contain">
-      {{ range where .Site.Pages.ByDate "Section" "services" }}
+      {{ range where (where .Site.Pages.ByDate "Section" "services") "Kind" "!=" "section" }}
       <div class="col-sm-4">
         <i class="{{ .Params.icon }}" aria-hidden="true"></i>
         <h2>{{ .Title }}</h2>

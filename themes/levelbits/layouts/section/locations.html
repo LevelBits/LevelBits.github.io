@@ -2,7 +2,7 @@
   {{ partial "header-title.html" . }}
   <div class="container-fluid section page-body">
     <div class="row row-contain project-list">
-    {{ range where .Site.Pages.ByDate "Section" "locations" }}
+    {{ range where (where .Site.Pages.ByDate "Section" "locations") "Kind" "!=" "section" }}
       <div class="col-xs-12 col-sm-6 project-list-item">
         <a href="{{ .Permalink }}" class="project-link">
           <div class="project-head">

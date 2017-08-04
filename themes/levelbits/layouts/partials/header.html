@@ -4,7 +4,7 @@
     {{ $pages := .Site.Pages.ByWeight }}
     {{ range .Site.Menus.main }}
     <a id="{{.Identifier}}-nav-item-mobile" class="link-section-nav" href="{{.URL}}">{{ .Name }}</a>
-    {{ range where $pages "Section" .Identifier }}
+    {{ range where (where $pages "Section" .Identifier) "Kind" "!=" "section" }}
     <a href="{{ .Permalink }}" class="link-page-nav">{{ .Title }}</a>
     {{ end }}
     {{ end }}
@@ -23,7 +23,7 @@
     {{ range .Site.Menus.main }}
     <div class="nav-item">
       <a id="{{.Identifier}}-nav-item" href="{{.URL}}">{{ .Name }}</a>
-      {{ $sections := (where $pages "Section" .Identifier) }}
+      {{ $sections := where (where $pages "Section" .Identifier) "Kind" "!=" "section" }}
       {{ if ge (len $sections) 1 }}
       <ul>
         {{ range $sections }}
