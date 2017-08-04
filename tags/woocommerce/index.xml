@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Jul 2016 15:16:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/tags/woocommerce/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.levelbits.com/tags/woocommerce/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>3B Bags</title>
@@ -15,15 +17,11 @@
       <pubDate>Sun, 24 Jul 2016 15:16:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/3b-bags/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  3B Bags&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://3bbags.com&#34;&gt;www.3bbags.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;3B Bags designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.&lt;/p&gt;
-</description>
+      <description>Client: 3B Bags
+Services: Web Design
+Year: 2016
+Link: www.3bbags.com
+3B Bags designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.</description>
     </item>
     
   </channel>

@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Sep 2016 15:15:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.levelbits.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Schmucker Homes</title>
@@ -15,15 +17,11 @@
       <pubDate>Mon, 12 Sep 2016 15:15:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/schmucker-homes/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Pestle | Pharmacy Compliance System&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Software Development&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://schmuckerhomes.com&#34;&gt;schmuckerhomes.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Schmucker Homes is a home construction company serving the Fort Wayne, IN area. They specialize in interior design, exterior design, home construction and remodeling.&lt;/p&gt;
-</description>
+      <description>Client: Pestle | Pharmacy Compliance System
+Services: Software Development
+Year: 2016
+Link: schmuckerhomes.com
+Schmucker Homes is a home construction company serving the Fort Wayne, IN area. They specialize in interior design, exterior design, home construction and remodeling.</description>
     </item>
     
     <item>
@@ -32,15 +30,11 @@
       <pubDate>Sun, 24 Jul 2016 15:16:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/3b-bags/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  3B Bags&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://3bbags.com&#34;&gt;www.3bbags.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;3B Bags designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.&lt;/p&gt;
-</description>
+      <description>Client: 3B Bags
+Services: Web Design
+Year: 2016
+Link: www.3bbags.com
+3B Bags designs and manufactures Reusable Produce Bag packs sold throughout the United States in major grocery store chains, specialty stores, and on the internet.</description>
     </item>
     
     <item>
@@ -49,15 +43,11 @@
       <pubDate>Sun, 24 Jul 2016 15:16:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/ascent/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Ascent Waste Consulting&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://ascentwasteconsulting.com&#34;&gt;www.ascentwasteconsulting.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;We are a Colorado based company that understands the current market. Our services are focused on saving clients time and money in regards to their waste and recycling service. We take pride in adding to other companies’ success! Ascent follows a gainsharing business model. If we do not generate 10% growth savings, the customer does not pay anything. If we don’t produce, we should not be paid. We are confident in our capabilities. With multiple years in the industry, we have the capabilities to improve any waste and recycling system. These improvements do not compromise service or service levels. Our main focus is reducing costs and increasing efficiency.&lt;/p&gt;
-</description>
+      <description>Client: Ascent Waste Consulting
+Services: Web Design
+Year: 2015
+Link: www.ascentwasteconsulting.com
+We are a Colorado based company that understands the current market. Our services are focused on saving clients time and money in regards to their waste and recycling service. We take pride in adding to other companies’ success! Ascent follows a gainsharing business model. If we do not generate 10% growth savings, the customer does not pay anything. If we don’t produce, we should not be paid.</description>
     </item>
     
     <item>
@@ -66,31 +56,11 @@
       <pubDate>Thu, 12 May 2016 15:18:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/not-waste/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Materials Lifecycle Management Company®&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://notwaste.com&#34;&gt;www.notwaste.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;MLMC is a rapidly expanding materials management company, with patented and proprietary materials optimization and alternative fuels technology. Our solution for traditionally landfilled or incinerated waste is disruptive to the waste management industry.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AOC Financial</title>
-      <link>http://www.levelbits.com/projects/aoc-financial/</link>
-      <pubDate>Thu, 12 May 2016 15:17:04 -0400</pubDate>
-      
-      <guid>http://www.levelbits.com/projects/aoc-financial/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  AOC Financial&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Our goal is to help clients achieve financial success. We have found that as people work toward being financially successful things become more complex, and the need for financial advice is a key to achieving success. We work with other financial professionals using a team approach to help our clients stay on track.&lt;/p&gt;
-</description>
+      <description>Client: Materials Lifecycle Management Company®
+Services: Web Design
+Year: 2015-2016
+Link: www.notwaste.com
+MLMC is a rapidly expanding materials management company, with patented and proprietary materials optimization and alternative fuels technology. Our solution for traditionally landfilled or incinerated waste is disruptive to the waste management industry.</description>
     </item>
     
     <item>
@@ -99,15 +69,11 @@
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/american-minerals/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  American Minerals&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://americanminerals.com&#34;&gt;www.americanminerals.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;American Minerals is the leading mineral and royalty company with a presence nationwide. Guided by our philosophy to provide superior quality and customer focused service, we are the premier company in all major oil and gas markets including CO, WY, ND, PA, WV, OH, OK, and TX. Through our core values of leadership, value creation, excellence, and respect we operate responsibly with regard to our communities, employees and customers. For us, being an enterprising family is the fabric of life and helping other American families is at the heart of everything we do.&lt;/p&gt;
-</description>
+      <description>Client: American Minerals
+Services: Web Design
+Year: 2015-2016
+Link: www.americanminerals.com
+American Minerals is the leading mineral and royalty company with a presence nationwide. Guided by our philosophy to provide superior quality and customer focused service, we are the premier company in all major oil and gas markets including CO, WY, ND, PA, WV, OH, OK, and TX. Through our core values of leadership, value creation, excellence, and respect we operate responsibly with regard to our communities, employees and customers.</description>
     </item>
     
     <item>
@@ -116,15 +82,10 @@
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/valkyrie/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Valkyrie Racing
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://racevalkyrie.com&#34;&gt;www.racevalkyrie.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Renée Brinkerhoff is an American auto-racing driver currently competing in the Mexican open road race, La Carrera Panamericana (LCP) and vintage races. Her racing experience began two years ago in the 2013 La Carrera Panamericana. And what a debut! Renee finished the race first in her class, becoming the only woman to ever do so in a La Carrera Panamericana debut. She is currently peparing for the 2016 rally with an eye on another first-in-class showing and an overall top-ten finish.&lt;/p&gt;
-</description>
+      <description>Client: Valkyrie Racing Services: Web Design
+Year: 2015-2016
+Link: www.racevalkyrie.com
+Renée Brinkerhoff is an American auto-racing driver currently competing in the Mexican open road race, La Carrera Panamericana (LCP) and vintage races. Her racing experience began two years ago in the 2013 La Carrera Panamericana. And what a debut! Renee finished the race first in her class, becoming the only woman to ever do so in a La Carrera Panamericana debut.</description>
     </item>
     
     <item>
@@ -133,15 +94,11 @@
       <pubDate>Thu, 12 May 2016 15:15:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/pestle/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Pestle | Pharmacy Compliance System&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Software Development&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://rxpestle.com&#34;&gt;www.rxpestle.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Pestle™ provides an easy to use web-based system designed to keep pharmacies aligned with the USP quality standards. The software integrates accreditation tested standard operating procedures and associated documentation, compliance management, task organization and a depot for historical data storage for large or small compounding pharmacy practices.&lt;/p&gt;
-</description>
+      <description>Client: Pestle | Pharmacy Compliance System
+Services: Software Development
+Year: 2015-2016
+Link: www.rxpestle.com
+Pestle™ provides an easy to use web-based system designed to keep pharmacies aligned with the USP quality standards. The software integrates accreditation tested standard operating procedures and associated documentation, compliance management, task organization and a depot for historical data storage for large or small compounding pharmacy practices.</description>
     </item>
     
     <item>
@@ -150,15 +107,11 @@
       <pubDate>Thu, 12 May 2016 15:14:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/la-loma/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  La Loma Mexican Kitchen&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Web Design&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt; 2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://lalomamexican.com&#34;&gt;www.lalomamexican.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;La Loma began as a family-owned Mexican restaurant in a small brick house just a block away from what became its landmark location for over forty years, on 26th Ave in Denver. Sonny Brinkerhoff loved the original restaurant, and in 1981, he and his son, William, relocated La Loma from its small house to its flagship location where it has resided ever since. The building was created by combining three Victorian miners’ houses dating from the 1800s, called The Colonial, The Victoria, and The Cantina. The hilltop restaurant with a view of downtown soon became a Denver staple. Sonny and William, along with Savina Mendoza, created a menu of Tex-Mex and Mexican favorites that showcased the flavors of the Southwest, featuring award-winning dishes like our renowned green chili, signature margaritas, and fresh tortillas, which are made on display in the dining room.&lt;/p&gt;
-</description>
+      <description>Client: La Loma Mexican Kitchen
+Services: Web Design
+Year: 2015-2016
+Link: www.lalomamexican.com
+La Loma began as a family-owned Mexican restaurant in a small brick house just a block away from what became its landmark location for over forty years, on 26th Ave in Denver. Sonny Brinkerhoff loved the original restaurant, and in 1981, he and his son, William, relocated La Loma from its small house to its flagship location where it has resided ever since.</description>
     </item>
     
   </channel>

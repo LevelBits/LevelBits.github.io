@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2016 15:15:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.levelbits.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Pestle</title>
@@ -15,15 +17,11 @@
       <pubDate>Thu, 12 May 2016 15:15:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/pestle/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Pestle | Pharmacy Compliance System&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Software Development&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2015-2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://rxpestle.com&#34;&gt;www.rxpestle.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Pestle™ provides an easy to use web-based system designed to keep pharmacies aligned with the USP quality standards. The software integrates accreditation tested standard operating procedures and associated documentation, compliance management, task organization and a depot for historical data storage for large or small compounding pharmacy practices.&lt;/p&gt;
-</description>
+      <description>Client: Pestle | Pharmacy Compliance System
+Services: Software Development
+Year: 2015-2016
+Link: www.rxpestle.com
+Pestle™ provides an easy to use web-based system designed to keep pharmacies aligned with the USP quality standards. The software integrates accreditation tested standard operating procedures and associated documentation, compliance management, task organization and a depot for historical data storage for large or small compounding pharmacy practices.</description>
     </item>
     
   </channel>

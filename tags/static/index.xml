@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Sep 2016 15:15:04 -0400</lastBuildDate>
-    <atom:link href="http://www.levelbits.com/tags/static/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://www.levelbits.com/tags/static/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Schmucker Homes</title>
@@ -15,15 +17,11 @@
       <pubDate>Mon, 12 Sep 2016 15:15:04 -0400</pubDate>
       
       <guid>http://www.levelbits.com/projects/schmucker-homes/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Client:&lt;/strong&gt;  Pestle | Pharmacy Compliance System&lt;br /&gt;
-&lt;strong&gt;Services:&lt;/strong&gt;  Software Development&lt;br /&gt;
-&lt;strong&gt;Year:&lt;/strong&gt;  2016&lt;br /&gt;
-&lt;strong&gt;Link:&lt;/strong&gt;  &lt;a href=&#34;http://schmuckerhomes.com&#34;&gt;schmuckerhomes.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Schmucker Homes is a home construction company serving the Fort Wayne, IN area. They specialize in interior design, exterior design, home construction and remodeling.&lt;/p&gt;
-</description>
+      <description>Client: Pestle | Pharmacy Compliance System
+Services: Software Development
+Year: 2016
+Link: schmuckerhomes.com
+Schmucker Homes is a home construction company serving the Fort Wayne, IN area. They specialize in interior design, exterior design, home construction and remodeling.</description>
     </item>
     
   </channel>
