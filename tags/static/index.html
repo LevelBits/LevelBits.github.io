@@ -234,7 +234,6 @@ Schmucker Homes is a home construction company serving the Fort Wayne, IN area. 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="http://www.levelbits.com/js/masonry.pkgd.js"></script>
 <script src="https://use.fontawesome.com/6dd88f051e.js"></script>
-<script src="https://cdn.smooch.io/smooch.min.js"></script>
 <script>
 
 function openNav() {
@@ -257,42 +256,6 @@ $('.closebtn').click(function(e) {
   return false;
 })
 
-</script>
-
-<script>
-var smoochLoaded = Smooch.init({
-  appToken: '23dac9ael1vt38n3pyxokmvox',
-  emailCaptureEnabled: true,
-  customText: {
-    headerText: 'Have a Question?',
-    inputPlaceholder: 'Type a message...',
-    sendButtonText: 'Send',
-    introText: 'Ask us something, and we will do our best to answer.',
-    settingsText: 'You can leave us your email so that we can get back to you this way.',
-    settingsReadOnlyText: 'We\'ll get back to you at this email address if we missed you.',
-    settingsInputPlaceholder: 'Your email address',
-    settingsSaveButtonText: 'Save',
-    settingsHeaderText: 'Email Settings',
-    settingsNotificationText: 'In case we\'re slow to respond you can <a href data-ui-settings-link>leave us your email</a>.',
-    actionPaymentError: 'An error occurred while processing the card. <br> Please try again or use a different card.',
-    actionPaymentCompleted: 'Payment Completed',
-    messageError: 'An error occured while sending your message. Please try again.',
-    invalidFileError: 'Sorry, but only images are supported currently. Please choose a file with a supported extension (jpg, jpeg, png, gif, or bmp).',
-    messageIndicatorTitleSingular: '({count}) New message',
-    messageIndicatorTitlePlural: '({count}) New messages'
-  }
-  
-});
-
-smoochLoaded.then(function() {
-  $(function() {
-    $('#contact-nav-item, #contact-nav-item-mobile').click(function(event) {
-      event.preventDefault();
-      closeNav();
-      Smooch.open();
-    });
-  })
-})
 </script>
 
 <script>

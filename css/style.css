@@ -570,25 +570,6 @@ footer {
   padding-bottom:200px;
 }
 
-/* Smooch Styling */
-
-#sk-holder #sk-container {
-  z-index: 10002 !important;
-  border-radius: 0 !important;
-}
-
-#sk-holder #sk-container #sk-header {
-  border-radius: 0 !important;
-}
-
-#sk-holder #sk-container #sk-conversation .sk-row.sk-right-row .sk-msg {
-  background-color: #333333 !important;
-}
-
-#sk-holder #sk-container #sk-conversation .sk-row .sk-msg-wrapper .sk-msg {
-  border-left-color: #333333 !important;
-}
-
 /* Locations */
 
 .locations {
