@@ -9,8 +9,8 @@ pluralizeListTitles = false
 name = "Level Bits, LLC"
 tagline = "Web & App Development"
 description = "At Level Bits, our team of professionals build and create unique applications for the Web, iOS and Android platforms."
-image = "https://www.levelbits.com/images/level-bits-og-image.png"
-url = "https://www.levelbits.com"
+image = "https://levelbits.com/images/level-bits-og-image.png"
+url = "https://levelbits.com"
 site = "@LevelBits"
 GoogleTagIdentifier = "GTM-NNDHJW"
 
