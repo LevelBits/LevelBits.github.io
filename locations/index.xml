@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Locations on Level Bits</title>
-    <link>http://www.levelbits.com/locations/</link>
+    <link>https://www.levelbits.com/locations/</link>
     <description>Recent content in Locations on Level Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 May 2016 15:14:04 -0400</lastBuildDate>
     
-	<atom:link href="http://www.levelbits.com/locations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.levelbits.com/locations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Denver, Colorado</title>
-      <link>http://www.levelbits.com/locations/denver-colorado/</link>
+      <link>https://www.levelbits.com/locations/denver-colorado/</link>
       <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
       
-      <guid>http://www.levelbits.com/locations/denver-colorado/</guid>
+      <guid>https://www.levelbits.com/locations/denver-colorado/</guid>
       <description>Contact Us Denver, Colorado 80211
 United States of America
 Phone: 720.443.4017</description>
@@ -24,10 +24,10 @@ Phone: 720.443.4017</description>
     
     <item>
       <title>Fort Wayne, Indiana</title>
-      <link>http://www.levelbits.com/locations/fort-wayne-indiana/</link>
+      <link>https://www.levelbits.com/locations/fort-wayne-indiana/</link>
       <pubDate>Mon, 23 May 2016 15:14:04 -0400</pubDate>
       
-      <guid>http://www.levelbits.com/locations/fort-wayne-indiana/</guid>
+      <guid>https://www.levelbits.com/locations/fort-wayne-indiana/</guid>
       <description>Contact Us 5310 Merchandise Dr.
 Fort Wayne, Indiana 46825
 United States of America</description>

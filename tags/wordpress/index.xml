@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on Level Bits</title>
-    <link>http://www.levelbits.com/tags/wordpress/</link>
+    <link>https://www.levelbits.com/tags/wordpress/</link>
     <description>Recent content in Wordpress on Level Bits</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2016 15:18:04 -0400</lastBuildDate>
     
-	<atom:link href="http://www.levelbits.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.levelbits.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Not Waste</title>
-      <link>http://www.levelbits.com/projects/not-waste/</link>
+      <link>https://www.levelbits.com/projects/not-waste/</link>
       <pubDate>Thu, 12 May 2016 15:18:04 -0400</pubDate>
       
-      <guid>http://www.levelbits.com/projects/not-waste/</guid>
+      <guid>https://www.levelbits.com/projects/not-waste/</guid>
       <description>Client: Materials Lifecycle Management Company®
 Services: Web Design
 Year: 2015-2016
@@ -26,10 +26,10 @@ MLMC is a rapidly expanding materials management company, with patented and prop
     
     <item>
       <title>Valkyrie Racing</title>
-      <link>http://www.levelbits.com/projects/valkyrie/</link>
+      <link>https://www.levelbits.com/projects/valkyrie/</link>
       <pubDate>Thu, 12 May 2016 15:16:04 -0400</pubDate>
       
-      <guid>http://www.levelbits.com/projects/valkyrie/</guid>
+      <guid>https://www.levelbits.com/projects/valkyrie/</guid>
       <description>Client: Valkyrie Racing Services: Web Design
 Year: 2015-2016
 Link: www.racevalkyrie.com
