@@ -12,7 +12,8 @@ description = "At Level Bits, our team of professionals build and create unique 
 image = "https://levelbits.com/images/level-bits-og-image.png"
 url = "https://levelbits.com"
 site = "@LevelBits"
-GoogleTagIdentifier = "GTM-NNDHJW"
+GoogleTagIdentifier = "G-XDKRXD22G7" # "GTM-NNDHJW"
+
 
 [taxonomies]
 category = "categories"
@@ -30,11 +31,11 @@ tag = "tags"
     url = "/services/"
     weight = 2
     identifier = "services"
-  # [[menu.main]]
-  #   name = "Locations"
-  #   url = "/locations/"
-  #   weight = 3
-  #   identifier = "locations"
+  [[menu.main]]
+    name = "Locations"
+    url = "/locations/"
+    weight = 3
+    identifier = "locations"
   [[menu.main]]
     name = "Contact"
     url = "/"
